@@ -16,16 +16,13 @@ body {
 }
 
 .toolbar {
-  
   left: 0;
   right: 0;
   top: 40px;
   bottom: 0;
   display: flex;
   flex-direction: column;
-  flex-wrap:  wrap
-
-  
+  flex-wrap: wrap;
 }
 
 .logo {
@@ -35,11 +32,9 @@ body {
   padding-bottom: 10px;
   font-family: "Poppins", sans-serif;
   margin-left: 100px;
-  
 }
 
 .icons {
- 
   position: absolute;
   width: 40px;
   height: 40px;
