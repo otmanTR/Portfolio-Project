@@ -6,7 +6,8 @@
 }
 
 body {
-  position: absolute;
+  position: flex;
+  flex-direction: column;
   width: 375px;
   height: 718px;
   left: 0;
@@ -15,32 +16,36 @@ body {
 }
 
 .toolbar {
-  position: absolute;
+  
   left: 0;
   right: 0;
-  top: 44px;
+  top: 40px;
   bottom: 0;
   display: flex;
   flex-direction: column;
+  flex-wrap:  wrap
+
+  
 }
 
 .logo {
-  display: inline-block;
-  position: absolute;
   width: 100px;
   height: 40px;
   left: 12px;
   padding-bottom: 10px;
   font-family: "Poppins", sans-serif;
+  margin-left: 100px;
+  
 }
 
 .icons {
-  display: inline-block;
+ 
   position: absolute;
   width: 40px;
   height: 40px;
   right: 24px;
   border-radius: 8px;
+  margin-right: 90px;
 }
 
 .headline {
