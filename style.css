@@ -203,13 +203,19 @@ body {
 }
 
 .btn:hover {
-  background-color: #dfe1e6;
+  background: #6070ff;
+  color: #ffffff;
 }
 
-.btn:active {
-  background-color: #dfe1e6;
-  box-shadow: 0 5px #dfe1e6;
-  transform: translateY(4px);
+.btn:focus {
+  background: #2230d2;
+  color: #ffffff;
+
+}
+.btn:disabled {
+  background: #ffffff;
+  color: #5e6c84;
+
 }
 
 .works {
