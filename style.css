@@ -14,9 +14,15 @@ body {
 }
 
 .toolbar {
+  left: 0;
+  right: 0;
+  top: 40px;
+  bottom: 0;
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
 }
 
 .logo {
@@ -25,16 +31,16 @@ body {
   left: 12px;
   padding-bottom: 10px;
   font-family: "Poppins", sans-serif;
-  margin-left: 100px;
+  margin-left: 10px;
+  text-align: center;
 }
 
 .icons {
-  position: absolute;
   width: 40px;
   height: 40px;
   right: 24px;
   border-radius: 8px;
-  margin-right: 90px;
+  margin-left: 202px;
 }
 
 .headline {
@@ -43,12 +49,12 @@ body {
   align-items: flex-start;
   padding: 114px 24px;
   gap: 12px;
-  position: absolute;
   width: 375px;
   height: 604px;
   left: calc(50% - 375px / 2);
   top: 92px;
   background-image: url(Images/header.png);
+  justify-content: center;
 }
 
 .header-shapes {
