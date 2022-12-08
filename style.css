@@ -204,18 +204,17 @@ body {
 
 .btn:hover {
   background: #6070ff;
-  color: #ffffff;
+  color: #fff;
 }
 
 .btn:focus {
   background: #2230d2;
-  color: #ffffff;
-
+  color: #fff;
 }
-.btn:disabled {
-  background: #ffffff;
-  color: #5e6c84;
 
+.btn:disabled {
+  background: #fff;
+  color: #5e6c84;
 }
 
 .works {
