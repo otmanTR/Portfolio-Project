@@ -507,12 +507,11 @@ body {
   top: 100%;
   padding-top: 80px;
   margin-top: 80px;
-  background-image: url(./images/formshape.png);
+  background-image: url(./Images/contact\ form\ shapes-mobile@2x.png);
   text-decoration: none;
   justify-content:center;
   align-items: center;
   flex-direction: column;
-  background: #6070FF;
   width: 375px;
 }
 
@@ -580,3 +579,4 @@ height: 100px;
   border-radius: 8px;
 border-color: white;
 }
+
