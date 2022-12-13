@@ -502,37 +502,26 @@ body {
 }
 
 .contact-form {
-  display: flex;
-  position: relative;
-  top: 100%;
-  padding-top: 80px;
-  margin-top: 80px;
-  background-image: url(./Images/contact\ form\ shapes-mobile@2x.png);
-  text-decoration: none;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+  position: absolute;
   width: 375px;
-}
-
-.form {
+  height: 779px;
+  top: 4010px;
   display: flex;
-  flex-direction: column;
-  text-decoration: none;
-  justify-content: center;
-  align-items: center;
+  background-image: url(./Images/Contact\ me.png);
+  padding-right: 30px;
 }
 
 .form_items {
-  flex-direction: column;
+  flex-direction: row;
   text-decoration: none;
-  justify-content: center;
+  
 }
 
 .form_items_1 {
   list-style-type: none;
-  align-items: center;
-  text-align: center;
+  justify-content:flex-start;
+  margin-left: 5px;
+  padding-left: 5px;
 }
 
 .btnform {
@@ -541,6 +530,17 @@ body {
   border-radius: 16px;
   color: #6070ff;
   background: white;
+  justify-content: flex-start;
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 17px;
+line-height: 24px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.03em;
+margin-left: 15px;
 }
 
 .btnform:hover {
@@ -564,13 +564,66 @@ body {
   text-align: center;
 }
 
-.textarea {
-  width: 180px;
-  height: 100px;
+.formtextarea {
+  height: 170px;
+  width: 327px;
+  left: 0px;
+  top: 0px;
+  border-radius: 8px;
+  align-items: center;
+  display: flex;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  padding-left: 16px;
+  margin-top: 10px;
+  margin-left: 10px;
 }
 
-.forminput {
-  width: 180px;
-  border-radius: 8px;
-  border-color: white;
+.formtext {
+  height: 48px;
+width: 327px;
+left: 0px;
+top: 0px;
+border-radius: 8px;
+align-items: center;
+display: flex;
+border: 1px solid #cfd8dc;
+border-radius: 8px;
+padding-left: 16px;
+margin-left: 10px;
+}
+
+.formemail {
+  height: 48px;
+width: 327px;
+left: 0px;
+top: 0px;
+border-radius: 8px;
+align-items: center;
+display: flex;
+border: 1px solid #cfd8dc;
+border-radius: 8px;
+padding-left: 16px;
+margin-left: 10px;
+}
+
+.contact-title {
+  display: flex;
+align-items: center;
+text-align: center;
+color: #FFFFFF;
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 52px;
+}
+
+.contact-text {
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 28px;
+text-align: center;
+color: #EBEBFF;
 }
