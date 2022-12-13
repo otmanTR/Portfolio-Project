@@ -8,7 +8,7 @@
 
 body {
   width: 375px;
-  height: 718px;
+  height: 900px;
   left: 0;
   top: 0;
   background: #fff;
@@ -499,4 +499,84 @@ body {
 .wordss {
   padding-left: 10px;
   padding-top: 28px;
+}
+
+.contact-form {
+  display: flex;
+  position:relative;
+  top: 100%;
+  padding-top: 80px;
+  margin-top: 80px;
+  background-image: url(./images/formshape.png);
+  text-decoration: none;
+  justify-content:center;
+  align-items: center;
+  flex-direction: column;
+  background: #6070FF;
+  width: 375px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  justify-content:center;
+  align-items: center;
+ 
+}
+
+.form_items {
+flex-direction: column;
+text-decoration: none;
+justify-content:center;
+}
+
+.form_items_1 {
+  list-style-type: none;
+  align-items: center;
+  text-align: center;
+  
+ 
+}
+
+.btnform {
+
+  padding: 16px;
+  background: transparent;
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+  color: #6070FF;
+  background: white;
+}
+
+.btnform:hover {
+  background: #6070ff;
+  color: #fff;
+}
+
+.btnform:focus {
+  background: #2230d2;
+  color: #fff;
+}
+
+.btnform:disabled {
+  background: #fff;
+  color: #5e6c84;
+}
+
+.form_items_1b {
+  list-style-type: none;
+  align-items: center;
+  text-align: center;
+}
+
+.textarea {
+width: 180px;
+height: 100px;
+}
+
+.forminput {
+  width: 180px;
+  border-radius: 8px;
+border-color: white;
 }
