@@ -8,7 +8,7 @@
 
 body {
   width: 375px;
-  height: 718px;
+  height: 900px;
   left: 0;
   top: 0;
   background: #fff;
@@ -499,4 +499,145 @@ body {
 .wordss {
   padding-left: 10px;
   padding-top: 28px;
+}
+
+.contact-form {
+  position: absolute;
+  width: 375px;
+  height: 779px;
+  top: 4010px;
+  display: flex;
+  background-image: url(./Contact\ me.png);
+  padding-right: 30px;
+  margin-left: -40px;
+}
+
+.form_items {
+  flex-direction: row;
+  text-decoration: none;
+  margin-top: 100px;
+  margin-left: -20px;
+  padding-left: 20px;
+}
+
+.form_items_1 {
+  list-style-type: none;
+  justify-content: flex-start;
+  margin-left: 5px;
+  padding-left: 5px;
+}
+
+.btnform {
+  padding: 16px;
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+  color: #6070ff;
+  background: white;
+  justify-content: flex-start;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-left: 15px;
+  margin-top: 20px;
+}
+
+.btnform:hover {
+  background: #6070ff;
+  color: #fff;
+}
+
+.btnform:focus {
+  background: #2230d2;
+  color: #fff;
+}
+
+.btnform:disabled {
+  background: #fff;
+  color: #5e6c84;
+}
+
+.form_items_1b {
+  list-style-type: none;
+  align-items: center;
+  text-align: center;
+}
+
+.formtextarea {
+  height: 170px;
+  width: 327px;
+  left: 0;
+  top: 0;
+  border-radius: 8px;
+  align-items: center;
+  display: flex;
+  border: 1px solid #cfd8dc;
+  padding-left: 16px;
+  margin-top: 20px;
+  margin-left: 10px;
+  padding-top: 16px;
+}
+
+.formtext {
+  height: 48px;
+  width: 327px;
+  left: 0;
+  top: 0;
+  border-radius: 8px;
+  align-items: center;
+  display: flex;
+  border: 1px solid #cfd8dc;
+  padding-left: 16px;
+  margin-left: 10px;
+  margin-bottom: 16px;
+}
+
+.formemail {
+  height: 48px;
+  width: 327px;
+  left: 0;
+  top: 0;
+  border-radius: 8px;
+  align-items: center;
+  display: flex;
+  border: 1px solid #cfd8dc;
+  padding-left: 16px;
+  margin-left: 10px;
+  margin-bottom: 16px;
+}
+
+.contact-title {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+
+.contact-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #ebebff;
+  margin-bottom: 40px;
+}
+
+.contact-form-background-image {
+  position: absolute;
+  width: 233px;
+  height: 670.17px;
+  left: 153px;
+  margin-left: -10px;
+  margin-top: 49px;
 }
