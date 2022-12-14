@@ -60,7 +60,7 @@ body {
   height: 604px;
   left: calc(50% - 375px / 2);
   top: 92px;
-  background-image: url(Images/header.png);
+  background-image: url(./header\ desk.png);
   justify-content: center;
 }
 
@@ -653,53 +653,61 @@ body {
 
 @media screen and (min-width: 768px) {
 
-  body {
-    
-    width: 1440px;
-    height: 5125px;
-    background: #F4F5F7;
+  body {  
+  width: 80%;
+  height: 900px;
+  left: 0;
+  top: 0;
+  background: #fff;
   }
   
   .toolbar {
     
-    width: 1440px;
+    width: 80%;
     height: 72px;
-    left: 0px;
-    top: 0px;
-    display: flex;
-    flex-direction: row;
+    margin-top: -90px;
+    padding-top: 50px;
+  
   }
   
   .logo {
-    display: flex;
-flex-direction: row;
-align-items: center;
-padding: 10px 12px;
-width: 100px;
-height: 40px;
-left: 143px;
-top: calc(50% - 40px/2);
+padding-top: 150px;
+margin-top: 50px;
+margin-left: 50px;
+padding-left: 50px;
+font-weight: 700;
+font-size: 18px;
+line-height: 20px;
   }
   
   .icons {
     display: none;
   }
   
+.navul {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  margin-top: -50px;
+  margin-left: 170px;
+  padding-left: 349px;
+  font-weight: 500;
+font-size: 15px;
+line-height: 20px;
+color: #344563;
+list-style-type: none;
+    }
+
   .sec {
     width: 1440px;
 height: 916px;
 left: 0px;
 top: 1px;
 background: #FFFFFF;
-background-image: url(./Header\ bg@2x.png);
-iame
+background-image: no-repeat;
   }
 
-  .navul {
-display: flex;
-flex-direction: row;
-gap: 8px;
-  }
+  
 
   .headline {
     display: flex;
