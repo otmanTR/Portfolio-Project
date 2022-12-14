@@ -520,7 +520,7 @@ body {
 
 .form_items_1 {
   list-style-type: none;
-  justify-content:flex-start;
+  justify-content: flex-start;
   margin-left: 5px;
   padding-left: 5px;
 }
@@ -532,17 +532,16 @@ body {
   color: #6070ff;
   background: white;
   justify-content: flex-start;
-  font-family: 'Poppins';
-font-style: normal;
-font-weight: 500;
-font-size: 17px;
-line-height: 24px;
-display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: 0.03em;
-margin-left: 15px;
-margin-top: 20px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-left: 15px;
+  margin-top: 20px;
 }
 
 .btnform:hover {
@@ -569,13 +568,12 @@ margin-top: 20px;
 .formtextarea {
   height: 170px;
   width: 327px;
-  left: 0px;
-  top: 0px;
+  left: 0;
+  top: 0;
   border-radius: 8px;
   align-items: center;
   display: flex;
   border: 1px solid #cfd8dc;
-  border-radius: 8px;
   padding-left: 16px;
   margin-top: 20px;
   margin-left: 10px;
@@ -584,54 +582,51 @@ margin-top: 20px;
 
 .formtext {
   height: 48px;
-width: 327px;
-left: 0px;
-top: 0px;
-border-radius: 8px;
-align-items: center;
-display: flex;
-border: 1px solid #cfd8dc;
-border-radius: 8px;
-padding-left: 16px;
-margin-left: 10px;
-margin-bottom: 16px;
+  width: 327px;
+  left: 0;
+  top: 0;
+  border-radius: 8px;
+  align-items: center;
+  display: flex;
+  border: 1px solid #cfd8dc;
+  padding-left: 16px;
+  margin-left: 10px;
+  margin-bottom: 16px;
 }
 
 .formemail {
   height: 48px;
-width: 327px;
-left: 0px;
-top: 0px;
-border-radius: 8px;
-align-items: center;
-display: flex;
-border: 1px solid #cfd8dc;
-border-radius: 8px;
-padding-left: 16px;
-margin-left: 10px;
-margin-bottom: 16px;
+  width: 327px;
+  left: 0;
+  top: 0;
+  border-radius: 8px;
+  align-items: center;
+  display: flex;
+  border: 1px solid #cfd8dc;
+  padding-left: 16px;
+  margin-left: 10px;
+  margin-bottom: 16px;
 }
 
 .contact-title {
   display: flex;
-align-items: center;
-text-align: center;
-color: #FFFFFF;
-font-style: normal;
-font-weight: 700;
-font-size: 40px;
-line-height: 52px;
-margin-left: 50px;
-margin-bottom: 20px;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  margin-left: 50px;
+  margin-bottom: 20px;
 }
 
 .contact-text {
-  font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 28px;
-text-align: center;
-color: #EBEBFF;
-margin-bottom: 40px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #ebebff;
+  margin-bottom: 40px;
 }
