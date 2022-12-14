@@ -507,14 +507,15 @@ body {
   height: 779px;
   top: 4010px;
   display: flex;
-  background-image: url(./Images/Contact\ me.png);
+  background-image: url(./images/Contact\ me.png);
   padding-right: 30px;
+  margin-left: -40px;
 }
 
 .form_items {
   flex-direction: row;
   text-decoration: none;
-  
+  margin-top: 100px;
 }
 
 .form_items_1 {
@@ -541,6 +542,7 @@ align-items: center;
 text-align: center;
 letter-spacing: 0.03em;
 margin-left: 15px;
+margin-top: 20px;
 }
 
 .btnform:hover {
@@ -575,8 +577,9 @@ margin-left: 15px;
   border: 1px solid #cfd8dc;
   border-radius: 8px;
   padding-left: 16px;
-  margin-top: 10px;
+  margin-top: 20px;
   margin-left: 10px;
+  padding-top: 16px;
 }
 
 .formtext {
@@ -591,6 +594,7 @@ border: 1px solid #cfd8dc;
 border-radius: 8px;
 padding-left: 16px;
 margin-left: 10px;
+margin-bottom: 16px;
 }
 
 .formemail {
@@ -605,6 +609,7 @@ border: 1px solid #cfd8dc;
 border-radius: 8px;
 padding-left: 16px;
 margin-left: 10px;
+margin-bottom: 16px;
 }
 
 .contact-title {
@@ -616,6 +621,8 @@ font-style: normal;
 font-weight: 700;
 font-size: 40px;
 line-height: 52px;
+margin-left: 50px;
+margin-bottom: 20px;
 }
 
 .contact-text {
@@ -626,4 +633,5 @@ font-size: 20px;
 line-height: 28px;
 text-align: center;
 color: #EBEBFF;
+margin-bottom: 40px;
 }
