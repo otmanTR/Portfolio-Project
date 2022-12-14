@@ -510,12 +510,15 @@ body {
   background-image: url(./Contact\ me.png);
   padding-right: 30px;
   margin-left: -40px;
+ 
 }
 
 .form_items {
   flex-direction: row;
   text-decoration: none;
   margin-top: 100px;
+  margin-left: -20px;
+  padding-left: 20px;
 }
 
 .form_items_1 {
@@ -629,4 +632,13 @@ body {
   text-align: center;
   color: #ebebff;
   margin-bottom: 40px;
+}
+
+.contact-form-background-image {
+  position: absolute;
+  width: 233px;
+  height: 670.17px;
+  left: 153px;
+  margin-left: -10px;
+  margin-top: 49px;
 }
