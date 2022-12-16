@@ -679,7 +679,6 @@ body {
     padding-top: 50px;
   }
 
-
   .card {
     display: flex;
     flex-direction: row;
@@ -761,8 +760,7 @@ body {
     border-top-left-radius: 150px;
     background: #6070ff;
     width: 1600px;
-height: 846px;
-
+    height: 846px;
   }
 
   .contackback {
@@ -772,13 +770,11 @@ height: 846px;
     flex-direction: column;
     align-items: center;
     text-align: center;
-   
     width: 1600px;
     background-image: url(./contact\ form\ background\ shapes.png);
     background-position-y: 65px;
     background-position-x: 168px;
     transform: scaleX(1.45);
-    
   }
 
   .form_items {
