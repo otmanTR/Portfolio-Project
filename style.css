@@ -7,7 +7,7 @@
 }
 
 body {
-  background: #E5E5E5;
+  background: #e5e5e5;
 }
 
 .tool {
@@ -24,7 +24,6 @@ body {
   justify-content: space-between;
   align-items: center;
   background: white;
- 
 }
 
 .navulitems {
@@ -594,7 +593,7 @@ body {
 
 @media screen and (min-width: 768px) {
   .body {
-    background: #E5E5E5;
+    background: #e5e5e5;
   }
 
   .tool {
@@ -720,6 +719,7 @@ body {
 
   .aboutsec {
     background: white;
+    width: 1700px;
   }
 
   .about {
@@ -730,7 +730,7 @@ body {
     margin-left: 250px;
     padding-right: 100px;
     background-color: white;
-    width: 1450px;
+    width: 1650px;
   }
 
   .about__content {
@@ -760,16 +760,17 @@ body {
   .contact-form {
     border-top-left-radius: 150px;
     background: #6070ff;
+    width: 1600px;
   }
 
-.contackback {
-  padding-top: 2px;
-  align-content: stretch;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  background-image: url(./contact\ form\ background\ shapes.png);
-}
+  .contackback {
+    padding-top: 2px;
+    align-content: stretch;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-image: url(./contact\ form\ background\ shapes.png);
+  }
 
   .form_items {
     display: flex;
@@ -778,7 +779,6 @@ body {
     text-align: center;
     flex-wrap: wrap;
     align-content: stretch;
-   
   }
 
   .btnform {
