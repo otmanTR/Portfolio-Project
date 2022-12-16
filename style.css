@@ -12,6 +12,7 @@ body {
 
 .tool {
   background: white;
+  width: 1600px;
 }
 
 .toolbar {
@@ -597,7 +598,7 @@ body {
   }
 
   .tool {
-    width: 1440px;
+    width: 1600px;
     height: 816px;
     top: 1px;
     border-bottom-left-radius: 150px;
@@ -678,9 +679,6 @@ body {
     padding-top: 50px;
   }
 
-  .socialmediaicons {
-    padding-left: 250px;
-  }
 
   .card {
     display: flex;
@@ -692,6 +690,8 @@ body {
     top: 0;
     bottom: 0;
     background-color: white;
+    padding-left: 100px;
+    margin-left: 200px;
   }
 
   .card__image {
@@ -714,12 +714,12 @@ body {
   .works {
     display: flex;
     flex-direction: column;
-    width: 1400px;
+    width: 1600px;
   }
 
   .aboutsec {
     background: white;
-    width: 1700px;
+    width: 1600px;
   }
 
   .about {
@@ -730,7 +730,7 @@ body {
     margin-left: 250px;
     padding-right: 100px;
     background-color: white;
-    width: 1650px;
+    width: 1600px;
   }
 
   .about__content {
@@ -761,15 +761,24 @@ body {
     border-top-left-radius: 150px;
     background: #6070ff;
     width: 1600px;
+height: 846px;
+
   }
 
   .contackback {
+    margin-top: 10px;
     padding-top: 2px;
     align-content: stretch;
     flex-direction: column;
     align-items: center;
     text-align: center;
+   
+    width: 1600px;
     background-image: url(./contact\ form\ background\ shapes.png);
+    background-position-y: 65px;
+    background-position-x: 168px;
+    transform: scaleX(1.45);
+    
   }
 
   .form_items {
