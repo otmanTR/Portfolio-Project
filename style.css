@@ -772,9 +772,9 @@ body {
     text-align: center;
     width: 1600px;
     background-image: url(./contact\ form\ background\ shapes.png);
+    background-repeat: no-repeat;
     background-position-y: 65px;
     background-position-x: 168px;
-    transform: scaleX(1.45);
   }
 
   .form_items {
