@@ -12,28 +12,30 @@
   </head>
 
   <body>
-    
+ <section class="tool">
     <header class="toolbar">
-     
-      <nav ><a class="logo" href="#"><img src="Images\Logo Placeholder.png" alt="logo" /></a>
-       <img class="icons" src="Images\Enabled.png" alt="threeline" /></nav> 
-      
+      <nav ><div class="navu"><div class="navul1"><a class="logo" href="#"><img src="Images\Logo Placeholder.png" alt="logo" /></a>
+       <img class="icons" src="Images\Enabled.png" alt="threeline" /></div>
+      <div class="navul2"><ul class="navulitems">
+        <li class="navli">Portfolio</li>
+        <li class="navli">About</li>
+        <li class="navli">Contact</li>
+      </ul></div></div></nav>   
   </header>
 
-  <section class="sec">
+  
     <div class="headline">
-    
-        <h1 class="text1">I'm Burak Glad to see you</h1>
-        <p class="text2">
+        <div><h1 class="text1">I'm Burak <br> Glad to see you</h1></div>
+       <div> <p class="text2">
           I’m a software developer! I can help you build a product , feature or
           website Look through some of my work and experience! If you like what
           you see and have a project you need coded, don’t hestiate to contact
           me.
-        </p>
+        </p></div>
       
-        <h2 class="let">LET'S CONNECT</h2>
+        <div><h2 class="let">LET'S CONNECT</h2></div>
 
-         <ul  class="socialmediaicons" >
+         <div class="leticon"><ul  class="socialmediaicons" >
           <li>
             <a class="social" href="https://twitter.com/hotumanzade">
               <img src="Images\twitter.png" alt="twitter">
@@ -60,13 +62,17 @@
             </a>
           </li>
        </ul>
+      </div>
       
     </div>
-    </section>
+  </section>
+  
     <section class="works">
       <div class="card">
         <div class="card__image">
-          <img src="Images/tox1.png" alt="">
+          <img src="Images/tox1.png" alt="" class="work1image"  width="544" 
+          height="448">
+          <img src="./Snapshoot Portfolio.png" alt="snapshoot" class="snapshoot">
         </div>
         <div class="card__content">
           <h2 class="card__content--heading">Tonic</h2>
@@ -87,7 +93,8 @@
       
       <div class="card">
         <div class="card__image">
-          <img src="Images/mul2.png" alt="mul2.png">
+          <img src="Images/mul2.png " alt="mul2.png"  width="544" 
+          height="448">
         </div>
         <div class="card__content">
           <h2 class="card__content--heading">Multi-Post Stories</h2>
@@ -107,7 +114,8 @@
       </div>
       <div class="card">
         <div class="card__image">
-          <img src="Images/ton21.png" alt="ton21">
+          <img src="Images/ton21.png" alt="ton21"  width="544" 
+          height="448">
         </div>
         <div class="card__content">
           <h2 class="card__content--heading">Tonic</h2>
@@ -127,7 +135,8 @@
       </div>
       <div class="card">
         <div class="card__image">
-          <img src="Images/mul21.png" alt="mul21">
+          <img src="Images/mul21.png" alt="mul21"  width="544" 
+          height="448">
         </div>
         <div class="card__content">
           <h2 class="card__content--heading">Multi-Post Stories</h2>
@@ -144,10 +153,11 @@
           </ul>
           <button class="btn">See Project</button>
         </div>
-      <section class="ab">
+</section>
+<section class="aboutsec">
         <div class="about">
   <div class="about__content">
-    <h2 class="aheading">About Myself</h2>
+    <h2 class="aheading">About <br> Myself</h2>
     <p class="ades">
       Hello I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.
     </p>
@@ -200,13 +210,10 @@
     </li></ul>
   </div>
         </div>
-      </section>
-      
-        
-      <footer class="contact-form"> 
-        
-      <form action="https://formspree.io/f/mjvznnga" method="post">
-        <img src="contact form shapes-mobile@2x.png" name="contact-form-background-image" class="contact-form-background-image">
+  
+      <div class="contact-form">  
+      <form action="https://formspree.io/f/mjvznnga" method="post">    
+        <div class="contackback">
         <ul class="form_items">
 <li class="form_items_1"> <h1 class="contact-title">Contact me</h1></li>
 <li class="form_items_1"><p class="contact-text">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it</p></li>
@@ -215,9 +222,10 @@
 <li class="form_items_1"><textarea class="formtextarea" name="textarea" placeholder="Write your message here" maxlength="500" required></textarea></li>    
 <li><button type="submit" class="btnform">Get It Touch</button></li>
 </ul>
+</div>
       </form>
-    </footer>
-  
+    </div>
+  </section>
  
   </body>
 </html>
