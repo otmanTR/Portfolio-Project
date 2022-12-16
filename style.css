@@ -7,7 +7,7 @@
 }
 
 body {
-  background: #FFFFFF;
+  background: #fff;
 }
 
 .toolbar {
@@ -588,20 +588,20 @@ body {
 
 @media screen and (min-width: 768px) {
   .body {
-    background: #F4F5F7;
+    background: #f4f5f7;
   }
 
   .tool {
-    Width:1440px;
-    Height:816px;
-    Top:1px;
+    width: 1440px;
+    height: 816px;
+    top: 1px;
   }
 
-.toolbar {
-  display: flex;
-margin-right: 100px;
-padding-right: 100px;
-}
+  .toolbar {
+    display: flex;
+    margin-right: 100px;
+    padding-right: 100px;
+  }
 
   .icons {
     display: none;
@@ -611,7 +611,6 @@ padding-right: 100px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    
   }
 
   .navul1 {
@@ -622,7 +621,6 @@ padding-right: 100px;
   .navul2 {
     margin-top: -20px;
     margin-left: 840px;
-   
   }
 
   .navulitems {
@@ -645,19 +643,18 @@ padding-right: 100px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    background-image: no-repeat;
     margin-left: 40px;
-   background-image: url(./Header\ bg\ \(3\).png);
-   margin-top: 50px;
-   border-top-left-radius: 150px;
-   border-bottom-left-radius: 150px ;
+    background-image: url(./Headerbig.png);
+    margin-top: 50px;
+    border-bottom-left-radius: 150px;
+    border-top-left-radius: 150px;
   }
 
   .text1 {
     flex-wrap: wrap;
     width: 80%;
     margin-left: 250px;
-   padding-top: 200px;
+    padding-top: 200px;
   }
 
   .text2 {
@@ -679,30 +676,24 @@ padding-right: 100px;
     padding-left: 250px;
   }
 
-  .leticon {
-
-  }
-
   .card {
     display: flex;
     flex-direction: row;
-    Width:1156px;
-Height:496px;
-Radius:24px;
-left: 0px;
-right: 0px;
-top: 0px;
-bottom: 0px;
-background-color: white;
+    width: 1156px;
+    height: 496px;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: white;
   }
 
   .card__image {
     width: 544px;
-height: 448px;
-left: 24px;
-top: 24px;
-border-radius: 8px;
-   
+    height: 448px;
+    left: 24px;
+    top: 24px;
+    border-radius: 8px;
   }
 
   .card__content {
@@ -710,7 +701,6 @@ border-radius: 8px;
     height: 465px;
     left: 590px;
     top: 24px;
-    width: 544px;
     padding: 24px;
     gap: 24px;
   }
@@ -759,9 +749,9 @@ border-radius: 8px;
     flex-direction: column;
     align-items: center;
     text-align: center;
-     background: #6070FF;
-     border-top-left-radius: 150px ;
-     background-image: url(./contact\ form\ background\ shapes.png);
+    background: #6070ff;
+    border-top-left-radius: 150px;
+    background-image: url(./contact\ form\ background\ shapes.png);
   }
 
   .form_items {
