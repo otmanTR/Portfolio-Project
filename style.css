@@ -7,7 +7,11 @@
 }
 
 body {
-  background: #fff;
+  background: #E5E5E5;
+}
+
+.tool {
+  background: white;
 }
 
 .toolbar {
@@ -19,6 +23,8 @@ body {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  background: white;
+ 
 }
 
 .navulitems {
@@ -588,19 +594,21 @@ body {
 
 @media screen and (min-width: 768px) {
   .body {
-    background: #f4f5f7;
+    background: #E5E5E5;
   }
 
   .tool {
     width: 1440px;
     height: 816px;
     top: 1px;
+    border-bottom-left-radius: 150px;
   }
 
   .toolbar {
     display: flex;
     margin-right: 100px;
     padding-right: 100px;
+    border-bottom-left-radius: 150px;
   }
 
   .icons {
@@ -647,7 +655,6 @@ body {
     background-image: url(./Headerbig.png);
     margin-top: 50px;
     border-bottom-left-radius: 150px;
-    border-top-left-radius: 150px;
   }
 
   .text1 {
@@ -708,6 +715,11 @@ body {
   .works {
     display: flex;
     flex-direction: column;
+    width: 1400px;
+  }
+
+  .aboutsec {
+    background: white;
   }
 
   .about {
@@ -717,6 +729,8 @@ body {
     flex-direction: row;
     margin-left: 250px;
     padding-right: 100px;
+    background-color: white;
+    width: 1450px;
   }
 
   .about__content {
@@ -744,15 +758,18 @@ body {
   }
 
   .contact-form {
-    align-content: stretch;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    background: #6070ff;
     border-top-left-radius: 150px;
-    background-image: url(./contact\ form\ background\ shapes.png);
+    background: #6070ff;
   }
+
+.contackback {
+  padding-top: 2px;
+  align-content: stretch;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-image: url(./contact\ form\ background\ shapes.png);
+}
 
   .form_items {
     display: flex;
@@ -761,6 +778,7 @@ body {
     text-align: center;
     flex-wrap: wrap;
     align-content: stretch;
+   
   }
 
   .btnform {
