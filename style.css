@@ -38,19 +38,16 @@ body {
   padding-bottom: 10px;
   font-family: "Poppins", sans-serif;
   margin-left: 10px;
-  text-align: center;  
+  text-align: center;
 }
 
 .logo-image {
   transition-property: width;
-
 }
 
 .logo-image:hover {
   width: 200px;
 }
-
-
 
 .icons {
   width: 40px;
@@ -84,7 +81,7 @@ body {
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
-  margin-left: 0px;
+  margin-left: 0;
   display: flex;
   align-items: center;
   color: #172b4d;
@@ -95,7 +92,7 @@ body {
 
 @keyframes text {
   from {
-    margin-left: 0px;
+    margin-left: 0;
     font-size: 40px;
   }
 
@@ -648,7 +645,6 @@ body {
     flex-direction: row;
     justify-content: space-between;
   }
-
 
   .navul1 {
     margin-left: 150px;
