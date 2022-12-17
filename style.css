@@ -84,9 +84,25 @@ body {
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
+  margin-left: 0px;
   display: flex;
   align-items: center;
   color: #172b4d;
+  animation-name: text;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes text {
+  from {
+    margin-left: 0px;
+    font-size: 40px;
+  }
+
+  to {
+    margin-left: 250px;
+    font-size: 60px;
+  }
 }
 
 .text2 {
