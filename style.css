@@ -63,7 +63,7 @@ body {
   align-items: flex-start;
   justify-content: center;
   background-image: url(./Headerbig.png);
-  background-size: 390px 420px;;
+  background-size: 390px 420px;
   background-repeat: no-repeat;
 }
 
@@ -138,7 +138,6 @@ body {
   gap: 20px;
   margin-left: 0;
   list-style-type: none;
- 
 }
 
 .h1 {
@@ -160,9 +159,9 @@ body {
   padding: 16px 16px 25px 16px;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
-    background-color: white;
-    width: 327px;
-height: 552px;
+  background-color: white;
+  width: 327px;
+  height: 552px;
 }
 
 .snapshoot {
@@ -683,7 +682,6 @@ height: 552px;
     flex-direction: column;
     align-items: flex-start;
     margin-left: 40px;
-  
     margin-top: 50px;
     border-bottom-left-radius: 150px;
     background-size: 1397.4px 721.46px;
@@ -710,6 +708,7 @@ height: 552px;
     margin-top: 5px;
     padding-top: 50px;
   }
+
   .socialmediaicons {
     padding-left: 250px;
   }
