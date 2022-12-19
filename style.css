@@ -138,6 +138,7 @@ body {
   gap: 20px;
   margin-left: 0;
   list-style-type: none;
+  padding-left: 250px;
 }
 
 .h1 {
@@ -685,6 +686,7 @@ body {
     margin-top: 50px;
     border-bottom-left-radius: 150px;
     background-size: 1397.4px 721.46px;
+    background-repeat: no-repeat;
   }
 
   .text1 {
@@ -709,8 +711,11 @@ body {
     padding-top: 50px;
   }
 
-  .socialmediaicons {
-    padding-left: 250px;
+  .aboutsocialmediaicons {
+    display: flex;
+    gap: 20px;
+    margin-left: 0;
+    list-style-type: none;
   }
 
   .card {
