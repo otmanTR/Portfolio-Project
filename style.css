@@ -161,7 +161,7 @@ body {
   border: 1px solid #dfe1e6;
   border-radius: 16px;
   background-color: white;
-  width:200%;
+  width: 200%;
   height: 552px;
 }
 
@@ -389,11 +389,12 @@ body {
   margin-left: 30px;
   padding-left: 30px;
 }
+
 .aboutsocialmediaicons {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
- gap: 30px;
+  gap: 30px;
 }
 
 .aheading {
