@@ -63,8 +63,9 @@ body {
   align-items: flex-start;
   justify-content: center;
   background-image: url(./Headerbig.png);
-  background-size: 390px 420px;
+  background-size: cover;
   background-repeat: no-repeat;
+  
 }
 
 .header-shapes {
