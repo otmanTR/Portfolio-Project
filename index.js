@@ -5,7 +5,7 @@ document.getElementById('hamburger').onclick = () => {
 };
 
 document.getElementById('x').onclick = () => {
-  document.getElementById('navulitems').classList.remove('hamburger');
+  document.getElementById('navulitems').classList.remove('navulitems');
   document.getElementById('hamburger').classList.remove('hamx');
   document.getElementById('x').classList.add('hamx');
 };

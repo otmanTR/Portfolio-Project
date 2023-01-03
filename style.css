@@ -84,6 +84,11 @@ align-items: center;
   display: flex;
 
 }
+
+a {
+  text-decoration: none;
+}
+
 .hamx {
   position: absolute;
   top: 55px;
@@ -101,6 +106,7 @@ align-items: center;
   background-image: url(./Headerbig.png);
   background-size: cover;
   background-repeat: no-repeat;
+  padding-left: 100px;
 }
 
 .header-shapes {
@@ -174,7 +180,7 @@ align-items: center;
   gap: 20px;
   margin-left: 0;
   list-style-type: none;
-  padding-left: 250px;
+  padding-left: 0;
 }
 
 .h1 {
