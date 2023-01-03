@@ -30,6 +30,7 @@ body {
 .navulitems {
 position:fixed;
 left: -100%;
+top: 0;
 background: #6070ff;
 height:100vh;
 width: 100vw;
@@ -41,6 +42,7 @@ background-image: url(Overlay.png);
 font-style: normal;
 font-weight: 600;
 font-size: 32px;
+margin-top: 30px;
 line-height: 44px;
 display: flex;
 align-items: center;
