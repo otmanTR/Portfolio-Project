@@ -65,9 +65,11 @@ align-items: center;
 }
 
 .icons {
+  position: absolute;
+  top: 40px;
   width: 40px;
   height: 40px;
-  right: 24px;
+  right: 30px;
   border-radius: 8px;
   margin-left: 302px;
 }
@@ -81,8 +83,12 @@ align-items: center;
 
 }
 .hamx {
+  position: absolute;
+  top: 55px;
+  right: 20px;
   width: 12px;
   height: 12px;
+  display: none;
 }
 
 .headline {
