@@ -202,6 +202,13 @@ border-radius: 16px;
 color: #172B4D;
 }
 
+.card-container-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
 .mobiletonic {
   width: 286px;
 height: 220px;
@@ -249,8 +256,10 @@ justify-content: space-between;
 .tonicx {
   top: 55px;
   right: 20px;
-  width: 12px;
-  height: 12px;
+  width: 24px;
+  height: 24px;
+  margin-right: 30px;
+  margin-top: 15px;
 }
 
 .card {
