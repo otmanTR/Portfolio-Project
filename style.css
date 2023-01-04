@@ -8,11 +8,12 @@
 
 body {
   background: #e5e5e5;
+  width: 100%;
 }
 
 .tool {
   background: white;
-  width: 200%;
+  width: 100%;
 }
 
 .toolbar {
@@ -31,12 +32,12 @@ body {
   position: fixed;
   left: -100%;
   top: 0;
-  height: 100%;
+  height: 100vh;
   width: 100%;
   background-image: url(Overlay.png);
-  mix-blend-mode: multiply;
   margin-top: 0;
   padding-top: 50px;
+  opacity: 95%;
 }
 
 .navulitems li {
@@ -112,7 +113,7 @@ a {
 }
 
 .header-shapes {
-  width: 462px;
+  width: 100%;
   height: 587.15px;
   left: -34px;
   top: 104px;
@@ -121,7 +122,7 @@ a {
 }
 
 .text1 {
-  width: 327px;
+  width: 100%;
   height: 150px;
   font-family: "Poppins", sans-serif;
   font-style: normal;
@@ -137,20 +138,8 @@ a {
   animation-iteration-count: infinite;
 }
 
-@keyframes text {
-  from {
-    margin-left: 0;
-    font-size: 40px;
-  }
-
-  to {
-    margin-left: 250px;
-    font-size: 60px;
-  }
-}
-
 .text2 {
-  width: 327px;
+  width: 100%;
   height: 146px;
   font-family: "Poppins", sans-serif;
   font-style: normal;
@@ -205,7 +194,7 @@ a {
   border: 1px solid #dfe1e6;
   border-radius: 16px;
   background-color: white;
-  width: 200%;
+  width: 100%;
   height: 552px;
 }
 
@@ -289,12 +278,12 @@ a {
   flex-direction: column;
   padding: 114px 24px;
   gap: 88px;
-  width: 375px;
+  width: 100%;
   left: 0;
 }
 
 .h2 {
-  width: 295px;
+  width: 100%;
   height: 36px;
   font-style: normal;
   font-weight: 700;
@@ -307,7 +296,7 @@ a {
 }
 
 .p {
-  width: 295px;
+  width: 100%;
   height: 76px;
   font-style: normal;
   font-weight: 400;
@@ -325,7 +314,7 @@ a {
   align-items: center;
   padding: 0;
   gap: 12px;
-  width: 236px;
+  width: 90%;
   height: 32px;
   flex: none;
   order: 1;
@@ -390,7 +379,7 @@ a {
 }
 
 .tox1 {
-  width: 295px;
+  width: 90%;
   height: 220px;
   border-radius: 8px;
   flex: none;
@@ -399,7 +388,7 @@ a {
 }
 
 .mul2 {
-  width: 295px;
+  width: 90%;
   height: 220px;
   border-radius: 8px;
   flex: none;
@@ -408,7 +397,7 @@ a {
 }
 
 .ton21 {
-  width: 295px;
+  width: 90%;
   height: 220px;
   border-radius: 8px;
   flex: none;
@@ -417,7 +406,7 @@ a {
 }
 
 .mul21 {
-  width: 295px;
+  width: 90%;
   height: 220px;
   border-radius: 8px;
   flex: none;
@@ -442,7 +431,7 @@ a {
 }
 
 .aheading {
-  width: 327px;
+  width: 90%;
   height: 101px;
   font-style: normal;
   font-weight: 700;
@@ -454,7 +443,7 @@ a {
 }
 
 .ades {
-  width: 327px;
+  width: 90%;
   height: 144px;
   font-style: normal;
   font-weight: 400;
@@ -613,7 +602,7 @@ a {
 
 .formtextarea {
   height: 170px;
-  width: 327px;
+  width: 90%;
   left: 0;
   top: 0;
   border-radius: 8px;
@@ -628,7 +617,7 @@ a {
 
 .formtext {
   height: 48px;
-  width: 327px;
+  width: 90%;
   left: 0;
   top: 0;
   border-radius: 8px;
@@ -642,7 +631,7 @@ a {
 
 .formemail {
   height: 48px;
-  width: 327px;
+  width: 90%;
   left: 0;
   top: 0;
   border-radius: 8px;
@@ -673,7 +662,7 @@ a {
   margin-right: 39px;
   padding-right: 30px;
   font-weight: 400;
-  width: 569px;
+  width: 100%;
   height: 102px;
 }
 
@@ -685,7 +674,7 @@ a {
   }
 
   .tool {
-    width: 1600px;
+    width: 100%;
     height: 816px;
     top: 1px;
     border-bottom-left-radius: 150px;
@@ -777,7 +766,7 @@ a {
   .card {
     display: flex;
     flex-direction: row;
-    width: 1156px;
+    width: 100%;
     height: 496px;
     left: 0;
     right: 0;
@@ -789,7 +778,7 @@ a {
   }
 
   .card__image {
-    width: 544px;
+    width: 100%;
     height: 448px;
     left: 24px;
     top: 24px;
@@ -797,7 +786,7 @@ a {
   }
 
   .card__content {
-    width: 544px;
+    width: 100%;
     height: 465px;
     left: 590px;
     top: 24px;
@@ -808,7 +797,7 @@ a {
   .works {
     display: flex;
     flex-direction: column;
-    width: 1600px;
+    width: 100%;
   }
 
   .aboutsec {
@@ -823,7 +812,7 @@ a {
     margin-left: 250px;
     padding-right: 100px;
     background-color: white;
-    width: 1600px;
+    width: 100%;
   }
 
   .about__content {
