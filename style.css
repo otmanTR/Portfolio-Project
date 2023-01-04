@@ -244,7 +244,15 @@ justify-content: space-between;
 .btncontainer:disabled {
   background: #fff;
   color: #5e6c84;
-}g
+}
+
+.tonicx {
+  top: 55px;
+  right: 20px;
+  width: 12px;
+  height: 12px;
+  display: none;
+}
 
 .card {
   padding: 16px 16px 25px 16px;
