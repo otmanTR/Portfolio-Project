@@ -190,6 +190,62 @@ a {
   width: 18px;
 }
 
+.card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 10px 10px 10px 10px;
+  padding: 10px 10px 10px 10px;
+  background: white;
+border: 1px solid #DFE1E6;
+border-radius: 16px;
+color: #172B4D;
+}
+
+.mobiletonic {
+  width: 286px;
+height: 220px;
+border-radius: 8px;
+}
+
+.bcontainer {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.btncntim {
+  padding-left:10px;
+  margin-top: -20px;
+}
+
+.btncontainer {
+  padding: 16px;
+  background: transparent;
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+  color: #396df2;
+flex-direction: row;
+gap: 10px;
+align-items: baseline;
+justify-content: space-between;
+}
+
+.btncontainer:focus {
+  background: #2230d2;
+  color: #fff;
+}
+
+.btncontainer:hover {
+  background: #6070ff;
+  color: #fff;
+}
+
+.btncontainer:disabled {
+  background: #fff;
+  color: #5e6c84;
+}g
+
 .card {
   padding: 16px 16px 25px 16px;
   border: 1px solid #dfe1e6;
