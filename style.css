@@ -27,9 +27,12 @@ body {
   background: white;
 }
 
+.navul2 {
+ display:none;
+}
+
 .navulitems {
 position:fixed;
-left: -100%;
 top: 0;
 background: #6070ff;
 height:100vh;
@@ -90,7 +93,19 @@ a {
 }
 
 .hamx {
-  position: absolute;
+  top: 55px;
+  right: 20px;
+  width: 12px;
+  height: 12px;
+}
+
+.card-container-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.tonicx {
   top: 55px;
   right: 20px;
   width: 12px;
@@ -183,6 +198,7 @@ a {
   padding-left: 0;
 }
 
+
 .h1 {
   display: flex;
   flex-direction: row;
@@ -217,6 +233,7 @@ a {
 border: 1px solid #DFE1E6;
 border-radius: 16px;
 color: #172B4D;
+
 }
 
 .mobiletonic {

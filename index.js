@@ -1,4 +1,4 @@
-document.getElementById('hamburger').onclick = () => {
+/*document.getElementById('hamburger').onclick = () => {
   document.getElementById('navulitems').classList.add('hamburger');
   document.getElementById('hamburger').classList.add('hamx');
   document.getElementById('x').classList.remove('hamx');
@@ -25,5 +25,9 @@ document.getElementById('l2').onclick = () => {
 document.getElementById('l3').onclick = () => {
   document.getElementById('navulitems').classList.remove('hamburger');
   document.getElementById('hamburger').classList.remove('hamx');
-  document.getElementById('x').classList.add('hamx');
+  document.getElementById('x').classList.add('hamx');*/
 };
+
+/*document.getElementById('btntonic1').onclick = () => {
+  document.querySelectorAll('.card-container')
+}*/
