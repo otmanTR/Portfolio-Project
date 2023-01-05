@@ -9,6 +9,7 @@
 body {
   background: #e5e5e5;
   width: 100%;
+  overflow-x: hidden;
 }
 
 .tool {
@@ -191,15 +192,20 @@ a {
 }
 
 .card-container {
+  position: fixed;
+  top: 0;
+  transform: scale(0.1);
+  visibility: hidden;
   display: flex;
   flex-direction: column;
   justify-content: center;
   margin: 10px 10px 10px 10px;
   padding: 10px 10px 10px 10px;
   background: white;
-border: 1px solid #DFE1E6;
-border-radius: 16px;
-color: #172B4D;
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+  color: #172b4d;
+  z-index: 3;
 }
 
 .card-container-title {
@@ -208,11 +214,10 @@ color: #172B4D;
   justify-content: space-between;
 }
 
-
 .mobiletonic {
   width: 286px;
-height: 220px;
-border-radius: 8px;
+  height: 220px;
+  border-radius: 8px;
 }
 
 .bcontainer {
@@ -222,7 +227,7 @@ border-radius: 8px;
 }
 
 .btncntim {
-  padding-left:10px;
+  padding-left: 10px;
   margin-top: -20px;
 }
 
@@ -232,10 +237,10 @@ border-radius: 8px;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
   color: #396df2;
-flex-direction: row;
-gap: 10px;
-align-items: baseline;
-justify-content: space-between;
+  flex-direction: row;
+  gap: 10px;
+  align-items: baseline;
+  justify-content: space-between;
 }
 
 .btncontainer:focus {
@@ -254,7 +259,8 @@ justify-content: space-between;
 }
 
 .tonicx {
-  top: 55px;
+  position: absolute;
+  top: 10px;
   right: 20px;
   width: 24px;
   height: 24px;
@@ -742,7 +748,7 @@ justify-content: space-between;
 /* ------------Desktop Version----------- */
 
 @media screen and (min-width: 768px) {
-  .body {
+  body {
     background: #e5e5e5;
   }
 
