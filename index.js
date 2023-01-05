@@ -41,6 +41,17 @@ const workCards = [
 ]
 
 document.querySelector('.btn1').onclick = () => {
+document.querySelector('.card-container').classList.add('star');
+document.querySelector('.card-container-title').innerHTML = workCards[0].title[0];
+document.querySelector('.card__content--item1').classList.add('star');
+document.querySelectorAll('.card__item--heading').innerHTML = workcCards[0].featured[0,1,2];
+document.querySelector('.mobiletonic').innerHTML = workCards[0].image[0];
+document.querySelector('.card__content--desc').innerHTML = workCards[0].description[0];
+document.querySelector('.card__content--item2').classList.add('star');
+document.querySelectorAll('.tech__btn').innerHTML = workCards[0].technologies[0,1,2];
+document.querySelector('.bcontainer').classList.add('star');
+document.querySelector('.btncontainer1').innerHTML =workCards[0].linkLive[0];
+document.querySelector('.btncontainer2').innerHTML= workCards[0].linkSource[0];
 
 }
 
