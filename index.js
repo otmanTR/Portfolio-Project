@@ -37,6 +37,33 @@ const workCards = [
     technologies: ['html', 'css', 'javascript'];
     linkLive:'https://otmantr.github.io/Portfolio-Project/';
     linkSource:'https://github.com/otmanTR/Portfolio-Project';
+  }.
+  { 
+    title:'Multi-Post Stories';
+    featured: ['CANOPY', 'Back End Dev', '2022'],
+    description:'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent';   
+    image: '.multimobileimage.png';
+    technologies: ['html', 'css', 'javascript'];
+    linkLive:'https://otmantr.github.io/Portfolio-Project/';
+    linkSource:'https://github.com/otmanTR/Portfolio-Project';
+  }.
+  { 
+    title:'Tonic';
+    featured: ['CANOPY', 'Back End Dev', '2022'],
+    description:'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent';   
+    image: '.tonicmobileimage1.png';
+    technologies: ['html', 'css', 'javascript'];
+    linkLive:'https://otmantr.github.io/Portfolio-Project/';
+    linkSource:'https://github.com/otmanTR/Portfolio-Project';
+  }.
+  { 
+    title:'Multi-Post Stories';
+    featured: ['CANOPY', 'Back End Dev', '2022'],
+    description:'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent';   
+    image: '.multimobileimage1.png';
+    technologies: ['html', 'css', 'javascript'];
+    linkLive:'https://otmantr.github.io/Portfolio-Project/';
+    linkSource:'https://github.com/otmanTR/Portfolio-Project';
   }
 ]
 
