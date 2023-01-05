@@ -29,6 +29,7 @@ document.getElementById('l3').onclick = () => {
 };
 
 /* pop-up-starts */
+/* Array */
 
 const workCards = [
   {
@@ -68,6 +69,7 @@ const workCards = [
     linkSource: 'https://github.com/otmanTR/Portfolio-Project',
   },
 ];
+/* Buttons */
 document.getElementById('btn').onclick = () => {
   document.getElementById('card-container').classList.add('star');
   document.getElementById('body').classList.add('blur');
