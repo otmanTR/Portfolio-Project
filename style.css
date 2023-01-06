@@ -964,6 +964,7 @@ a {
   transform: scale(1);
   visibility: visible;
 }
+
 .blur {
   filter: blur(20px);
 }
