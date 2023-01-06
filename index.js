@@ -129,7 +129,7 @@ document.getElementById('btn3').onclick = () => {
   document.getElementById('site').href = workCards[1].linkLive;
   document.getElementById('source').href = workCards[1].linkSource;
 };
-
+/* contact validation */
 document.getElementById('contactForm').onsubmit = (e) => {
   const email = document.getElementById('formEmail').value;
   if (email !== email.toLowerCase()) {
