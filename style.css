@@ -972,7 +972,7 @@ a {
 }
 
 /* contact-validation */
-form .message {
+#error-message {
   width: 100%;
   background-color: #fff;
   color: rgb(205, 0, 0);
@@ -983,5 +983,4 @@ form .message {
   border: 1px solid rgb(205, 0, 0);
   border-radius: 4px;
   padding: 2%;
-  display: none;
 }

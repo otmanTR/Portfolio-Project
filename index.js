@@ -130,6 +130,10 @@ document.getElementById('btn3').onclick = () => {
   document.getElementById('source').href = workCards[1].linkSource;
 };
 
-const getEmail = document.getElementById('formEmail');
-
-getEmail.addEventListener("input")
+document.getElementById('contactForm').onsubmit = (e) => {
+  const email = document.getElementById('formEmail').value;
+  if (email !== email.toLowerCase()) {
+    e.preventDefault();
+    document.getElementById('error-message').innerHTML = 'Email must be in lowercase';
+  }
+};
