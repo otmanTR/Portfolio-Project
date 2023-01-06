@@ -1000,6 +1000,10 @@ a {
   position: fixed;
 }
 
+ popup.window
+
+/* contact-validation */
+
 #error-message {
   width: 100%;
   background-color: #fff;
@@ -1011,6 +1015,7 @@ a {
   border: 1px solid rgb(205, 0, 0);
   border-radius: 4px;
   padding: 2%;
+
 }
 
 .flex {
@@ -1019,4 +1024,5 @@ a {
 
 .blue {
   color: #344563;
+
 }

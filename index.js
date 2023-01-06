@@ -73,7 +73,10 @@ const workCards = [
 
 document.getElementById('btn').onclick = () => {
   document.getElementById('card-container').classList.add('star');
+
   document.getElementById('headerliner').classList.add('blur');
+
+
   document.getElementById('Portfolio').classList.add('blur');
   document.getElementById('About').classList.add('blur');
   document.getElementById('Contact').classList.add('blur');
@@ -87,7 +90,11 @@ document.getElementById('btn').onclick = () => {
 
 document.getElementById('tonicx').onclick = () => {
   document.getElementById('card-container').classList.remove('star');
+
   document.getElementById('headerliner').classList.remove('blur');
+
+  // document.getElementById('body').classList.remove('blur');
+
   document.getElementById('Portfolio').classList.remove('blur');
   document.getElementById('About').classList.remove('blur');
   document.getElementById('Contact').classList.remove('blur');
@@ -95,7 +102,10 @@ document.getElementById('tonicx').onclick = () => {
 
 document.getElementById('btn1').onclick = () => {
   document.getElementById('card-container').classList.add('star');
+
   document.getElementById('headerliner').classList.add('blur');
+
+
   document.getElementById('Portfolio').classList.add('blur');
   document.getElementById('About').classList.add('blur');
   document.getElementById('Contact').classList.add('blur');
@@ -109,7 +119,10 @@ document.getElementById('btn1').onclick = () => {
 
 document.getElementById('btn2').onclick = () => {
   document.getElementById('card-container').classList.add('star');
+
   document.getElementById('headerliner').classList.add('blur');
+
+
   document.getElementById('Portfolio').classList.add('blur');
   document.getElementById('About').classList.add('blur');
   document.getElementById('Contact').classList.add('blur');
@@ -123,7 +136,10 @@ document.getElementById('btn2').onclick = () => {
 
 document.getElementById('btn3').onclick = () => {
   document.getElementById('card-container').classList.add('star');
+
   document.getElementById('headerliner').classList.add('blur');
+
+
   document.getElementById('Portfolio').classList.add('blur');
   document.getElementById('About').classList.add('blur');
   document.getElementById('Contact').classList.add('blur');
@@ -133,4 +149,12 @@ document.getElementById('btn3').onclick = () => {
   document.getElementById('mobiletonic').src = workCards[3].image;
   document.getElementById('site').href = workCards[1].linkLive;
   document.getElementById('source').href = workCards[1].linkSource;
+};
+/* contact validation */
+document.getElementById('contactForm').onsubmit = (e) => {
+  const email = document.getElementById('formEmail').value;
+  if (email !== email.toLowerCase()) {
+    e.preventDefault();
+    document.getElementById('error-message').innerHTML = 'Email must be in lowercase';
+  }
 };
