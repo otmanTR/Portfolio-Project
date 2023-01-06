@@ -76,11 +76,10 @@ document.getElementById('btn').onclick = () => {
 
   document.getElementById('headerliner').classList.add('blur');
 
-
   document.getElementById('Portfolio').classList.add('blur');
   document.getElementById('About').classList.add('blur');
   document.getElementById('Contact').classList.add('blur');
-  document.getElementById('cardL1').innerText = workCards[0].technologies[1];
+  document.getElementById('cardL1').innerText = workCards[0].technologies[0];
   document.getElementById('cardL2').innerHTML = workCards[0].technologies[1];
   document.getElementById('cardL3').innerHTML = workCards[0].technologies[2];
   document.getElementById('mobiletonic').src = workCards[0].image;
@@ -105,7 +104,6 @@ document.getElementById('btn1').onclick = () => {
 
   document.getElementById('headerliner').classList.add('blur');
 
-
   document.getElementById('Portfolio').classList.add('blur');
   document.getElementById('About').classList.add('blur');
   document.getElementById('Contact').classList.add('blur');
@@ -122,7 +120,6 @@ document.getElementById('btn2').onclick = () => {
 
   document.getElementById('headerliner').classList.add('blur');
 
-
   document.getElementById('Portfolio').classList.add('blur');
   document.getElementById('About').classList.add('blur');
   document.getElementById('Contact').classList.add('blur');
@@ -138,7 +135,6 @@ document.getElementById('btn3').onclick = () => {
   document.getElementById('card-container').classList.add('star');
 
   document.getElementById('headerliner').classList.add('blur');
-
 
   document.getElementById('Portfolio').classList.add('blur');
   document.getElementById('About').classList.add('blur');
