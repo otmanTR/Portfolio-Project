@@ -1,3 +1,4 @@
+/* eslint-disable prefer-destructuring */
 document.getElementById('hamburger').onclick = () => {
   document.getElementById('navulitems').classList.add('hamburger');
   document.getElementById('hamburger').classList.add('hamx');
@@ -45,7 +46,7 @@ const workCards = [
     title: 'Multi-Post Stories',
     featured: ['CANOPY', 'Back End Dev', '2022'],
     description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
-    image: 'multimobileimage.png',
+    image: 'destopimage.png',
     technologies: ['html', 'css', 'javascript'],
     linkLive: 'https://otmantr.github.io/Portfolio-Project/',
     linkSource: 'https://github.com/otmanTR/Portfolio-Project',
@@ -76,12 +77,12 @@ document.getElementById('btn').onclick = () => {
   document.getElementById('Portfolio').classList.add('blur');
   document.getElementById('About').classList.add('blur');
   document.getElementById('Contact').classList.add('blur');
-  document.getElementById('l1').classList.add('star');
-  document.getElementById('l2').classList.add('star');
-  document.getElementById('l3').classList.add('star');
-  document.getElementById('l1').innerHTML = workCards[0].technologies[0];
-  document.getElementById('l2').innerHTML = workCards[0].technologies[1];
-  document.getElementById('l3').innerHTML = workCards[0].technologies[2];
+  // document.getElementById('l1').classList.add('star');
+  // document.getElementById('l2').classList.add('star');
+  // document.getElementById('l3').classList.add('star');
+  document.getElementById('l1').innerText = workCards[0].technologies[0];
+  document.getElementById('l2').textContent = workCards[0].technologies[1];
+  document.getElementById('l3').textContent = workCards[0].technologies[2];
   document.getElementById('mobiletonic').src = workCards[0].image;
   document.getElementById('site').href = workCards[0].linkLive;
   document.getElementById('source').href = workCards[0].linkSource;

@@ -971,4 +971,13 @@ a {
 
 .blur {
   filter: blur(20px);
+  blue;
+  flex;
 }
+
+.flex {
+  display: flex;
+  }
+  .blue {
+    color: #344563;
+  }
