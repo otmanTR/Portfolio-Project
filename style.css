@@ -744,6 +744,29 @@ a {
   height: 102px;
 }
 
+
+/* Pop-up */
+
+.cardDesktop {
+ flex-direction: column;
+ display: flex;
+}
+
+.cardDesktopitems {
+  flex-direction: column;
+}
+
+.bcontainer {
+ flex-direction: row;
+}
+
+.btncontainer {
+align-items: center;
+gap: 10px;
+width: 142px;
+height: 40px;
+}
+
 /* ------------Desktop Version----------- */
 
 @media screen and (min-width: 768px) {
@@ -970,6 +993,7 @@ a {
 }
 
 .cardDesktop {
+  display: flex;
   flex-direction: row;
 }
 
@@ -977,8 +1001,17 @@ a {
   flex-direction: column;
 }
 
-.btncontainer {
+.bcontainer {
   flex-direction: row;
+}
+
+.btncontainer {
+flex-direction: row;
+align-items: center;
+gap: 10px;
+width: 142px;
+height: 40px;
+
 }
 
 /* contact-validation */
