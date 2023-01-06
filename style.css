@@ -191,6 +191,83 @@ a {
   width: 18px;
 }
 
+.card-container {
+  position: fixed;
+  top: 0;
+  transform: scale(0.1);
+  visibility: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 10px 10px 10px 10px;
+  padding: 10px 10px 10px 10px;
+  background: white;
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+  color: #172b4d;
+  z-index: 3;
+}
+
+.card-container-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.mobiletonic {
+  width: 286px;
+  height: 220px;
+  border-radius: 8px;
+}
+
+.bcontainer {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.btncntim {
+  padding-left: 10px;
+  margin-top: -20px;
+}
+
+.btncontainer {
+  padding: 16px;
+  background: transparent;
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+  color: #396df2;
+  flex-direction: row;
+  gap: 10px;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.btncontainer:focus {
+  background: #2230d2;
+  color: #fff;
+}
+
+.btncontainer:hover {
+  background: #6070ff;
+  color: #fff;
+}
+
+.btncontainer:disabled {
+  background: #fff;
+  color: #5e6c84;
+}
+
+.tonicx {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  width: 24px;
+  height: 24px;
+  margin-right: 30px;
+  margin-top: 15px;
+}
+
 .card {
   padding: 16px 16px 25px 16px;
   border: 1px solid #dfe1e6;
@@ -671,7 +748,7 @@ a {
 /* ------------Desktop Version----------- */
 
 @media screen and (min-width: 768px) {
-  .body {
+  body {
     background: #e5e5e5;
     overflow-x: hidden;
   }
@@ -881,4 +958,29 @@ a {
     flex-wrap: wrap;
     align-content: stretch;
   }
+}
+
+/* popup.window */
+.star {
+  transform: scale(1);
+  visibility: visible;
+}
+
+.blur {
+  filter: blur(20px);
+  position: fixed;
+}
+
+/* contact-validation */
+#error-message {
+  width: 100%;
+  background-color: #fff;
+  color: rgb(205, 0, 0);
+  text-align: center;
+  font-family: var(--main-font);
+  font-size: 12px;
+  margin-top: 5px;
+  border: 1px solid rgb(205, 0, 0);
+  border-radius: 4px;
+  padding: 2%;
 }

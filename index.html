@@ -93,11 +93,11 @@
             <li class="tech__btn">css</li>
             <li class="tech__btn">Javascript</li>
           </ul>
-          <button class="btn">See Project</button>
+          <button class="btn" id="btn">See Project</button>
         </div>
       </div>
-      
-      <div class="card">
+      <div class="popUp1"></div>
+      <div class="card" id="2">
         <div class="card__image">
           <img src="Images/mul2.png " alt="mul2.png"  width="auto" 
           height="auto">
@@ -115,7 +115,7 @@
             <li class="tech__btn">css</li>
             <li class="tech__btn">Javascript</li>
           </ul>
-          <button class="btn">See Project</button>
+          <button class="btn" id="btn1">See Project</button>
         </div>
       </div>
       <div class="card">
@@ -136,7 +136,7 @@
             <li class="tech__btn">css</li>
             <li class="tech__btn">Javascript</li>
           </ul>
-          <button class="btn">See Project</button>
+          <button class="btn" id="btn2">See Project</button>
         </div>
       </div>
       <div class="card">
@@ -157,7 +157,7 @@
             <li class="tech__btn">css</li>
             <li class="tech__btn">Javascript</li>
           </ul>
-          <button class="btn">See Project</button>
+          <button class="btn" id="btn3">See Project</button>
         </div>
 </section>
 <section class="aboutsec" id="About">
@@ -218,20 +218,40 @@
         </div>
   
       <div class="contact-form" id="Contact">  
-      <form action="https://formspree.io/f/mjvznnga" method="post">    
+      <form action="https://formspree.io/f/mjvznnga" method="post" id="contactForm">    
         <div class="contackback">
         <ul class="form_items">
 <li class="form_items_1"> <h1 class="contact-title">Contact me</h1></li>
 <li class="form_items_1"><p class="contact-text">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it</p></li>
 <li class="form_items_1"><input class="formtext" type="text" name="name" placeholder="Burak" maxlength="30" required></li>   
-<li class="form_items_1"><input class="formemail" type="email" name="email" placeholder="r.brk.otman@gmail.com" required></li>
+<li class="form_items_1"><input id="formEmail" class="formemail" type="email" name="email" placeholder="r.brk.otman@gmail.com" required></li>
 <li class="form_items_1"><textarea class="formtextarea" name="textarea" placeholder="Write your message here" maxlength="500" required></textarea></li>    
 <li><button type="submit" class="btnform">Get It Touch</button></li>
 </ul>
+<p id="error-message" ></p>
 </div>
+<span class="message" id="formMessage"></span>
       </form>
     </div>
   </section>
-  <script src="index.js"></script>
+  <div class="card-container" id="card-container">
+    <div class="card-container-title"><h2 id="title">Tonic</h2> <img src="Icon - Cancel.png" alt="xx" class="tonicx" id="tonicx"> </div>
+    <div><ul class="card__content--item1">
+      <li class="card__item--heading"> Canopy</li>
+      <li class="card__item--heading1"> <img src="Images/Counter.png" alt="Counter"> Back End Dev</li>
+      <li class="card__item--heading2"> <img src="Images/Counter.png" alt="Counter"> 2015</li>
+    </ul></div>
+    <div><img class="mobiletonic" id="mobiletonic" src="" alt="MobileTonic"></div>
+    <div><p class="card__content--desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent</p></div>
+    <div> <ul class="card__content--item2">
+      <li class="tech__btn"></li>
+      <li class="tech__btn"></li>
+      <li class="tech__btn"></li>
+    </ul></div>
+    <div class="bcontainer"><a href="https://otmantr.github.io/Portfolio-Project/"> <button id="site" class="btncontainer">See Live<img src="ivit.svg" class="btncntim"></button></a>
+     <a href="https://github.com/otmanTR/Portfolio-Project"> <button id="source" class="btncontainer">See Source<img src="igit.png" class="btncntim"></button></a>
+    </div>
+  </div>
+  <script src="index.js"></script><script src="index.js"></script>
   </body>
 </html>
