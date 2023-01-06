@@ -100,7 +100,7 @@ a {
   width: 12px;
   height: 12px;
   color: white;
-  margin-right: 40%;
+  margin-right: 10%;
 }
 
 .headline {
@@ -750,6 +750,7 @@ a {
 @media screen and (min-width: 768px) {
   body {
     background: #e5e5e5;
+    overflow-x: hidden;
   }
 
   .tool {
