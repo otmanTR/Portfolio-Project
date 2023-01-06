@@ -70,19 +70,16 @@ const workCards = [
     linkSource: 'https://github.com/otmanTR/Portfolio-Project',
   },
 ];
-/* Buttons */
+
 document.getElementById('btn').onclick = () => {
   document.getElementById('card-container').classList.add('star');
   document.getElementById('headerliner').classList.add('blur');
   document.getElementById('Portfolio').classList.add('blur');
   document.getElementById('About').classList.add('blur');
   document.getElementById('Contact').classList.add('blur');
-  // document.getElementById('l1').classList.add('star');
-  // document.getElementById('l2').classList.add('star');
-  // document.getElementById('l3').classList.add('star');
-  document.getElementById('l1').innerText = workCards[0].technologies[0];
-  document.getElementById('l2').textContent = workCards[0].technologies[1];
-  document.getElementById('l3').textContent = workCards[0].technologies[2];
+  document.getElementById('cardL1').innerText = workCards[0].technologies[1];
+  document.getElementById('cardL2').innerHTML = workCards[0].technologies[1];
+  document.getElementById('cardL3').innerHTML = workCards[0].technologies[2];
   document.getElementById('mobiletonic').src = workCards[0].image;
   document.getElementById('site').href = workCards[0].linkLive;
   document.getElementById('source').href = workCards[0].linkSource;

@@ -147,7 +147,6 @@ a {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  color: #344563;
 }
 
 .let {
@@ -190,83 +189,6 @@ a {
   width: 18px;
 }
 
-.card-container {
-  position: fixed;
-  top: 0;
-  transform: scale(0.1);
-  visibility: hidden;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin: 10px 10px 10px 10px;
-  padding: 10px 10px 10px 10px;
-  background: white;
-  border: 1px solid #dfe1e6;
-  border-radius: 16px;
-  color: #172b4d;
-  z-index: 3;
-}
-
-.card-container-title {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-.mobiletonic {
-  width: 100%;
-  height: 220px;
-  border-radius: 8px;
-}
-
-.bcontainer {
-  display: flex;
-  flex-direction: row;
-  gap: 10px;
-}
-
-.btncntim {
-  padding-left: 10px;
-  margin-top: -20px;
-}
-
-.btncontainer {
-  padding: 16px;
-  background: transparent;
-  border: 1px solid #dfe1e6;
-  border-radius: 16px;
-  color: #396df2;
-  flex-direction: row;
-  gap: 10px;
-  align-items: baseline;
-  justify-content: space-between;
-}
-
-.btncontainer:focus {
-  background: #2230d2;
-  color: #fff;
-}
-
-.btncontainer:hover {
-  background: #6070ff;
-  color: #fff;
-}
-
-.btncontainer:disabled {
-  background: #fff;
-  color: #5e6c84;
-}
-
-.tonicx {
-  position: absolute;
-  top: 10px;
-  right: 20px;
-  width: 24px;
-  height: 24px;
-  margin-right: 30px;
-  margin-top: 15px;
-}
-
 .card {
   padding: 16px 16px 25px 16px;
   border: 1px solid #dfe1e6;
@@ -291,7 +213,6 @@ a {
 .card__item--heading {
   font-size: 13px;
   line-height: 16px;
-  color: #344563;
   text-transform: uppercase;
   font-weight: 800;
   list-style: none;
@@ -318,7 +239,6 @@ a {
   font-weight: 400;
   font-size: 15px;
   line-height: 24px;
-  color: #344563;
 }
 
 .tech__btn {
@@ -326,6 +246,7 @@ a {
   background: #ebebff;
   border-radius: 8px;
   color: #396df2;
+  margin: 5px;
 }
 
 .btn {
@@ -352,7 +273,6 @@ a {
 }
 
 .works {
- 
   flex-direction: column;
   padding: 114px 24px;
   gap: 88px;
@@ -744,27 +664,96 @@ a {
   height: 102px;
 }
 
-
 /* Pop-up */
-
-.cardDesktop {
- flex-direction: column;
- display: flex;
-}
-
-.cardDesktopitems {
+.card-container {
+  position: fixed;
+  top: 0;
+  transform: scale(0.1);
+  visibility: hidden;
   flex-direction: column;
+  justify-content: center;
+  margin: 10px 10px 10px 10px;
+  padding: 10px 10px 10px 10px;
+  background: white;
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+  color: #172b4d;
+  z-index: 3;
 }
 
-.bcontainer {
- flex-direction: row;
+.card-container-title {
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.mobiletonic {
+  width: 100%;
+  height: 220px;
+  border-radius: 8px;
+}
+
+.btncntim {
+  padding-left: 10px;
+  margin-top: -20px;
 }
 
 .btncontainer {
-align-items: center;
-gap: 10px;
-width: 142px;
-height: 40px;
+  padding: 16px;
+  background: transparent;
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+  color: #396df2;
+  flex-direction: row;
+  gap: 10px;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.btncontainer:focus {
+  background: #2230d2;
+  color: #fff;
+}
+
+.btncontainer:hover {
+  background: #6070ff;
+  color: #fff;
+}
+
+.btncontainer:disabled {
+  background: #fff;
+  color: #5e6c84;
+}
+
+.tonicx {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  width: 24px;
+  height: 24px;
+  margin-right: 30px;
+  margin-top: 15px;
+}
+
+.cardDesktop {
+  flex-direction: column;
+}
+
+.cardDesktopitems {
+  flex-direction: row;
+  font-size: 13px;
+  line-height: 16px;
+  list-style: none;
+  justify-content: flex-start;
+}
+
+.item-button {
+  flex-direction: row;
+}
+
+.bcontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 
 /* ------------Desktop Version----------- */
@@ -979,6 +968,25 @@ height: 40px;
     flex-wrap: wrap;
     align-content: stretch;
   }
+
+  .cardDesktop {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .bcontainer {
+    flex-direction: row;
+  }
+
+  .btncontainer {
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    width: 142px;
+    height: 40px;
+  }
+
+  /* contact-validation */
 }
 
 /* popup.window */
@@ -992,29 +1000,6 @@ height: 40px;
   position: fixed;
 }
 
-.cardDesktop {
-  display: flex;
-  flex-direction: row;
-}
-
-.cardDesktopitems {
-  flex-direction: column;
-}
-
-.bcontainer {
-  flex-direction: row;
-}
-
-.btncontainer {
-flex-direction: row;
-align-items: center;
-gap: 10px;
-width: 142px;
-height: 40px;
-
-}
-
-/* contact-validation */
 #error-message {
   width: 100%;
   background-color: #fff;
