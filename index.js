@@ -107,9 +107,9 @@ document.getElementById('btn1').onclick = () => {
   document.getElementById('Portfolio').classList.add('blur');
   document.getElementById('About').classList.add('blur');
   document.getElementById('Contact').classList.add('blur');
-  document.getElementById('l1').innerHTML = workCards[1].technologies[0];
-  document.getElementById('l2').innerHTML = workCards[1].technologies[1];
-  document.getElementById('l3').innerHTML = workCards[1].technologies[2];
+  document.getElementById('cardL1').innerHTML = workCards[1].technologies[0];
+  document.getElementById('cardL2').innerHTML = workCards[1].technologies[1];
+  document.getElementById('cardL3').innerHTML = workCards[1].technologies[2];
   document.getElementById('mobiletonic').src = workCards[1].image;
   document.getElementById('site').href = workCards[1].linkLive;
   document.getElementById('source').href = workCards[1].linkSource;
@@ -123,9 +123,9 @@ document.getElementById('btn2').onclick = () => {
   document.getElementById('Portfolio').classList.add('blur');
   document.getElementById('About').classList.add('blur');
   document.getElementById('Contact').classList.add('blur');
-  document.getElementById('l1').innerHTML = workCards[2].technologies[0];
-  document.getElementById('l2').innerHTML = workCards[2].technologies[1];
-  document.getElementById('l3').innerHTML = workCards[2].technologies[2];
+  document.getElementById('cardL1').innerHTML = workCards[2].technologies[0];
+  document.getElementById('cardL2').innerHTML = workCards[2].technologies[1];
+  document.getElementById('cardL3').innerHTML = workCards[2].technologies[2];
   document.getElementById('mobiletonic').src = workCards[2].image;
   document.getElementById('site').href = workCards[2].linkLive;
   document.getElementById('source').href = workCards[2].linkSource;
@@ -139,9 +139,9 @@ document.getElementById('btn3').onclick = () => {
   document.getElementById('Portfolio').classList.add('blur');
   document.getElementById('About').classList.add('blur');
   document.getElementById('Contact').classList.add('blur');
-  document.getElementById('l1').innerHTML = workCards[1].technologies[0];
-  document.getElementById('l2').innerHTML = workCards[1].technologies[1];
-  document.getElementById('l3').innerHTML = workCards[1].technologies[2];
+  document.getElementById('cardL1').innerHTML = workCards[1].technologies[0];
+  document.getElementById('cardL2').innerHTML = workCards[1].technologies[1];
+  document.getElementById('cardL3').innerHTML = workCards[1].technologies[2];
   document.getElementById('mobiletonic').src = workCards[3].image;
   document.getElementById('site').href = workCards[1].linkLive;
   document.getElementById('source').href = workCards[1].linkSource;
