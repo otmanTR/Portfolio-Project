@@ -72,7 +72,6 @@ const workCards = [
 /* Buttons */
 document.getElementById('btn').onclick = () => {
   document.getElementById('card-container').classList.add('star');
-  document.getElementById('body').classList.add('blur');
   document.getElementById('Portfolio').classList.add('blur');
   document.getElementById('About').classList.add('blur');
   document.getElementById('Contact').classList.add('blur');
@@ -94,7 +93,6 @@ document.getElementById('tonicx').onclick = () => {
 
 document.getElementById('btn1').onclick = () => {
   document.getElementById('card-container').classList.add('star');
-  document.getElementById('body').classList.add('blur');
   document.getElementById('Portfolio').classList.add('blur');
   document.getElementById('About').classList.add('blur');
   document.getElementById('Contact').classList.add('blur');
@@ -108,7 +106,6 @@ document.getElementById('btn1').onclick = () => {
 
 document.getElementById('btn2').onclick = () => {
   document.getElementById('card-container').classList.add('star');
-  document.getElementById('body').classList.add('blur');
   document.getElementById('Portfolio').classList.add('blur');
   document.getElementById('About').classList.add('blur');
   document.getElementById('Contact').classList.add('blur');
@@ -122,7 +119,6 @@ document.getElementById('btn2').onclick = () => {
 
 document.getElementById('btn3').onclick = () => {
   document.getElementById('card-container').classList.add('star');
-  document.getElementById('body').classList.add('blur');
   document.getElementById('Portfolio').classList.add('blur');
   document.getElementById('About').classList.add('blur');
   document.getElementById('Contact').classList.add('blur');
@@ -133,3 +129,7 @@ document.getElementById('btn3').onclick = () => {
   document.getElementById('site').href = workCards[1].linkLive;
   document.getElementById('source').href = workCards[1].linkSource;
 };
+
+const getEmail = document.getElementById('formEmail');
+
+getEmail.addEventListener("input")
