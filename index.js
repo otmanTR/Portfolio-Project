@@ -85,7 +85,7 @@ document.getElementById('btn').onclick = () => {
 
 document.getElementById('tonicx').onclick = () => {
   document.getElementById('card-container').classList.remove('star');
-  document.getElementById('body').classList.remove('blur');
+  // document.getElementById('body').classList.remove('blur');
   document.getElementById('Portfolio').classList.remove('blur');
   document.getElementById('About').classList.remove('blur');
   document.getElementById('Contact').classList.remove('blur');
