@@ -72,10 +72,13 @@ const workCards = [
 /* Buttons */
 document.getElementById('btn').onclick = () => {
   document.getElementById('card-container').classList.add('star');
-  document.getElementById('body').classList.add('blur');
+  document.getElementById('headerliner').classList.add('blur');
   document.getElementById('Portfolio').classList.add('blur');
   document.getElementById('About').classList.add('blur');
   document.getElementById('Contact').classList.add('blur');
+  document.getElementById('l1').classList.add('star');
+  document.getElementById('l2').classList.add('star');
+  document.getElementById('l3').classList.add('star');
   document.getElementById('l1').innerHTML = workCards[0].technologies[0];
   document.getElementById('l2').innerHTML = workCards[0].technologies[1];
   document.getElementById('l3').innerHTML = workCards[0].technologies[2];
@@ -86,7 +89,7 @@ document.getElementById('btn').onclick = () => {
 
 document.getElementById('tonicx').onclick = () => {
   document.getElementById('card-container').classList.remove('star');
-  document.getElementById('body').classList.remove('blur');
+  document.getElementById('headerliner').classList.remove('blur');
   document.getElementById('Portfolio').classList.remove('blur');
   document.getElementById('About').classList.remove('blur');
   document.getElementById('Contact').classList.remove('blur');
@@ -94,7 +97,7 @@ document.getElementById('tonicx').onclick = () => {
 
 document.getElementById('btn1').onclick = () => {
   document.getElementById('card-container').classList.add('star');
-  document.getElementById('body').classList.add('blur');
+  document.getElementById('headerliner').classList.add('blur');
   document.getElementById('Portfolio').classList.add('blur');
   document.getElementById('About').classList.add('blur');
   document.getElementById('Contact').classList.add('blur');
@@ -108,7 +111,7 @@ document.getElementById('btn1').onclick = () => {
 
 document.getElementById('btn2').onclick = () => {
   document.getElementById('card-container').classList.add('star');
-  document.getElementById('body').classList.add('blur');
+  document.getElementById('headerliner').classList.add('blur');
   document.getElementById('Portfolio').classList.add('blur');
   document.getElementById('About').classList.add('blur');
   document.getElementById('Contact').classList.add('blur');
@@ -122,7 +125,7 @@ document.getElementById('btn2').onclick = () => {
 
 document.getElementById('btn3').onclick = () => {
   document.getElementById('card-container').classList.add('star');
-  document.getElementById('body').classList.add('blur');
+  document.getElementById('headerliner').classList.add('blur');
   document.getElementById('Portfolio').classList.add('blur');
   document.getElementById('About').classList.add('blur');
   document.getElementById('Contact').classList.add('blur');
