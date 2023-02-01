@@ -2,7 +2,7 @@
 document.getElementById('hamburger').onclick = () => {
   document.getElementById('navulitems').classList.add('hamburger');
   document.getElementById('hamburger').classList.add('hamx');
-  document.getElementById('').classList.remove('hamx');
+  document.getElementById('x').classList.remove('hamx');
 };
 
 document.getElementById('x').onclick = () => {
@@ -131,7 +131,7 @@ document.getElementById('btn2').onclick = () => {
   document.getElementById('source').href = workCards[2].linkSource;
 };
 
-ocument.getElementById('btn3').onclick = () => {
+document.getElementById('btn3').onclick = () => {
   document.getElementById('card-container').classList.add('star');
 
   document.getElementById('headerliner').classList.add('blur');
@@ -154,3 +154,4 @@ document.getElementById('contactForm').onsubmit = (e) => {
     document.getElementById('error-message').innerHTML = 'Email must be in lowercase';
   
 };
+}
