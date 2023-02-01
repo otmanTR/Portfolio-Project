@@ -152,5 +152,6 @@ document.getElementById('contactForm').onsubmit = (e) => {
   if (email !== email.toLowerCase()) {
     e.preventDefault();
     document.getElementById('error-message').innerHTML = 'Email must be in lowercase';
-  }
+  
 };
+}
