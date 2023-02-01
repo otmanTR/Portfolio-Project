@@ -34,13 +34,13 @@ document.getElementById('l3').onclick = () => {
 
 const workCards = [
   {
-    title: 'Tonic',
-    featured: ['CANOPY', 'Back End Dev', '2022'],
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
-    image: 'tonicmobileimage.png',
+    title: 'To Do List',
+    featured: ['CANOPY', 'Front End Dev', '2023'],
+    description: 'It is a program which you could make checklist for your daily program and clear your list efficiently.',
+    image: 'do list.png',
     technologies: ['html', 'css', 'javascript'],
-    linkLive: 'https://otmantr.github.io/Portfolio-Project/',
-    linkSource: 'https://github.com/otmanTR/Portfolio-Project',
+    linkLive: 'otmantr.github.io/To-Do-List/dist',
+    linkSource: 'git@github.com:otmanTR/To-Do-List.git',
   },
   {
     title: 'Multi-Post Stories',
