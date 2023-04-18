@@ -7,7 +7,7 @@
 }
 
 body {
-  background: #e5e5e5;
+  background: white;
   width: 100%;
   overflow-x: hidden;
 }
@@ -195,7 +195,6 @@ a {
   border-radius: 16px;
   background-color: white;
   width: 100%;
-  height: 552px;
 }
 
 .snapshoot {
@@ -856,15 +855,12 @@ a {
   .card {
     display: flex;
     flex-direction: row;
-    width: 100%;
-    height: 496px;
     left: 0;
     right: 0;
     top: 0;
     bottom: 0;
     background-color: white;
     padding-left: 100px;
-    margin-left: 200px;
   }
 
   .card__image {
@@ -898,11 +894,10 @@ a {
     margin-top: 100px;
     padding-top: 10px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     margin-left: 250px;
     padding-right: 100px;
     background-color: white;
-    width: 100%;
   }
 
   .about__content {

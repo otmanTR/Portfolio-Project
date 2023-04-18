@@ -32,7 +32,7 @@ document.getElementById('l3').onclick = () => {
 /* pop-up-starts */
 /* Array */
 
-const workCards = [
+/*const workCards = [
   {
     title: 'To Do List',
     featured: ['CANOPY', 'Front End Dev', '2023'],
@@ -43,13 +43,13 @@ const workCards = [
     linkSource: 'git@github.com:otmanTR/To-Do-List.git',
   },
   {
-    title: 'Multi-Post Stories',
-    featured: ['CANOPY', 'Back End Dev', '2022'],
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
-    image: 'destopimage.png',
+    title: 'The-LOTR-Lovers-Conference',
+    featured: ['CANOPY', 'Front End Dev', '2023'],
+    description: 'Capstone 1 The LOTR Lovers-Conference is  an imaginary conference project',
+    image: 'mellonLogo.png',
     technologies: ['html', 'css', 'javascript'],
-    linkLive: 'https://otmantr.github.io/Portfolio-Project/',
-    linkSource: 'https://github.com/otmanTR/Portfolio-Project',
+    linkLive: 'https://otmantr.github.io/Capstone-1-The-LOTR-Lovers-Conference/',
+    linkSource: 'https://github.com/otmanTR/Capstone-1-The-LOTR-Lovers-Conference.git',
   },
   {
     title: 'Tonic',
@@ -79,6 +79,8 @@ document.getElementById('btn').onclick = () => {
   document.getElementById('Portfolio').classList.add('blur');
   document.getElementById('About').classList.add('blur');
   document.getElementById('Contact').classList.add('blur');
+  document.getElementById ('title').innerHTML = workCards[0].title[0];
+  
   document.getElementById('cardL1').innerText = workCards[0].technologies[0];
   document.getElementById('cardL2').innerHTML = workCards[0].technologies[1];
   document.getElementById('cardL3').innerHTML = workCards[0].technologies[2];
@@ -145,7 +147,7 @@ document.getElementById('btn3').onclick = () => {
   document.getElementById('mobiletonic').src = workCards[3].image;
   document.getElementById('site').href = workCards[1].linkLive;
   document.getElementById('source').href = workCards[1].linkSource;
-};
+};*/
 /* contact validation */
 document.getElementById('contactForm').onsubmit = (e) => {
   const email = document.getElementById('formEmail').value;
