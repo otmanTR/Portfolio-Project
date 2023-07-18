@@ -33,19 +33,12 @@ document.getElementById('contactForm').onsubmit = (e) => {
   if (email !== email.toLowerCase()) {
     e.preventDefault();
     document.getElementById('error-message').innerHTML = 'Email must be in lowercase';
-  
+  }
 };
-}
-
-// Fetch Projects
-fetch("projects.json")
-  .then(response => response.json())
-  .then(data => renderProjects(data))
-  .catch(error => console.error(error));
 
 // Render Projects
 function renderProjects(projects) {
-  const projectsContainer = document.querySelector(".projects-container");
+  const projectsContainer = document.querySelector('.projects-container');
 
   projects.forEach((project, index) => {
     const projectCard = `
@@ -64,8 +57,8 @@ function renderProjects(projects) {
             <h2 class="built">Built With</h2>
               <ul class="dev-list">
                 ${project.technologies
-                  .map(tech => `<li><h3 class="html">${tech}</h3></li>`)
-                  .join("")}
+    .map((tech) => `<li><h3 class="html">${tech}</h3></li>`)
+    .join('')}
               </ul>
               <button class="project-button1 project-button" type="submit">
               <a href="${project.liveLink}"> Live Demo 
@@ -83,3 +76,7 @@ function renderProjects(projects) {
     projectsContainer.innerHTML += projectCard;
   });
 }
+// Fetch Projects
+fetch('projects.json')
+  .then((response) => response.json())
+  .then((data) => renderProjects(data));
