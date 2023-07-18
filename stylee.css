@@ -63,7 +63,7 @@ body {
 }
 
 .projects-title:hover {
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(21, 21, 21);
     transition: 500ms ease-in-out;
     color: rgb(0, 255, 0);
 }
@@ -288,6 +288,11 @@ body {
     color: white;
 }
 
+.projects {
+    background-color: rgb(0, 0, 0);
+    margin: 10px 10px 10px 10px;
+}
+
 
 @media screen and (min-width: 768px) {
 
@@ -300,11 +305,13 @@ body {
         flex-flow: column wrap;
         flex-direction: row;
         gap: 10px;
+        align-items: stretch;
     }
     
     .projects {
         width: 250px;
         margin: 10px 10px 10px 10px;
+        background-color: rgb(50,50,50);
     }
     
     .picture {

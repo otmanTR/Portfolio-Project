@@ -1,50 +1,56 @@
 [
     {
-      "name": "The LOTR Lovers Conference ",
+      "name": "Popularity Of Crypto",
       "year": "2023",
-      "description": "The LOTR Lovers-Conference is JavaScript capstone project and it is an imaginary a conference project created with JavaScript, HTML and CSS .",
-      "image": "Images/lor.jpeg",
-      "technologies": ["html", "css", "javaScript"],
-      "link": "https://mertkantaroglu.github.io/Capstone-Conference-Project/"
+      "description": "Popularity of Cryptos was developed with React-Redux. You can see your favorite coins price, volume and etc datas.",
+      "image": "Images/coin.png",
+      "technologies": ["html", "css", "javaScript", "react", "redux"],
+      "liveLink": "dev--subtle-tartufo-f75291.netlify.app/",
+      "githubLink": "https://github.com/otmanTR/Popularity-Of-Cryptos"
+    },
+    {
+      "name": "Nice Car ",
+      "year": "2023",
+      "description": "Nice Car is an application which you can rent cars, add cars and delete the cars. For front end used React, for back and use Postgresql and Ruby on Rails ",
+      "image": "Images/niceCar.jpg",
+      "technologies": ["Ruby on Rais", "PosgreSLQ", "React"],
+      ",liveLink": "https://singular-speculoos-77f925.netlify.app/",
+      "githubLink": "https://github.com/otmanTR/nice-car-front-and"
+    },
+    {
+      "name": "Budget App",
+      "year": "2023",
+      "description": "Budget App is a Ruby on Rails project in which you can create new categories, you can write new transactions and deploy it to the categories, and finally you can control how much money you spend in each category. ",
+      "image": "Images/budget.png",
+      "technologies": ["Ruby on Rais", "PosgreSLQ", "Bootstrap"],
+      "liveLink": "https://budgetapp-1zk7.onrender.com/",
+      "githubLink": "https://github.com/otmanTR/Budget-App"
     },
     {
       "name": "The LOTR Lovers Conference ",
       "year": "2023",
       "description": "The LOTR Lovers-Conference is JavaScript capstone project and it is an imaginary a conference project created with JavaScript, HTML and CSS .",
       "image": "Images/lor.jpeg",
-      "technologies": ["html", "css", "javaScript"],
-      ",link": "https://mertkantaroglu.github.io/Capstone-Conference-Project/"
+      "technologies": ["HTML", "CSS", "JavaScript"],
+      "liveLink": "https://mertkantaroglu.github.io/Capstone-Conference-Project/",
+      "githubLink": "https://github.com/otmanTR/Popularity-Of-Cryptos"
     },
     {
-      "name": "The LOTR Lovers Conference ",
+      "name": "JavaScript Capstone ",
       "year": "2023",
-      "description": "The LOTR Lovers-Conference is JavaScript capstone project and it is an imaginary a conference project created with JavaScript, HTML and CSS .",
-      "image": "Images/lor.jpeg",
+      "description": "JavaScript Capstone is a website which you can see pokemons, you can like and you can leave about pokemons. ",
+      "image": "Images/pokemon.png",
       "technologies": ["html", "css", "javaScript"],
-      "link": "https://mertkantaroglu.github.io/Capstone-Conference-Project/"
+      "liveLink": "https://otmantr.github.io/JavaScript-Capstone-Project/dist/",
+      "githubLink": "https://github.com/otmanTR/JavaScript-Capstone-Project"
     },
     {
-      "name": "The LOTR Lovers Conference ",
+      "name": "Space Travellers ",
       "year": "2023",
-      "description": "The LOTR Lovers-Conference is JavaScript capstone project and it is an imaginary a conference project created with JavaScript, HTML and CSS .",
-      "image": "Images/lor.jpeg",
-      "technologies": ["html", "css", "javaScript"],
-      "link": "https://mertkantaroglu.github.io/Capstone-Conference-Project/"
-    },
-    {
-      "name": "The LOTR Lovers Conference ",
-      "year": "2023",
-      "description": "The LOTR Lovers-Conference is JavaScript capstone project and it is an imaginary a conference project created with JavaScript, HTML and CSS .",
-      "image": "Images/lor.jpeg",
-      "technologies": ["html", "css", "javaScript"],
-      "link": "https://mertkantaroglu.github.io/Capstone-Conference-Project/"
-    },
-    {
-      "name": "The LOTR Lovers Conference ",
-      "year": "2023",
-      "description": "The LOTR Lovers-Conference is JavaScript capstone project and it is an imaginary a conference project created with JavaScript, HTML and CSS .",
-      "image": "Images/lor.jpeg",
-      "technologies": ["html", "css", "javaScript"],
-      "link": "https://mertkantaroglu.github.io/Capstone-Conference-Project/"
+      "description": "Space Travellers a web application for a company that provides commercial and scientific space travel services. The application will allow users to book rockets and join selected space missions.",
+      "image": "Images/spaceTravellers.jpeg",
+      "technologies": ["HTML", "CSS", "React"],
+      "liveLink": "https://mertkantaroglu.github.io/Capstone-Conference-Project/",
+      "githubLink": "https://github.com/otmanTR/Popularity-Of-Cryptos"
     }
   ]

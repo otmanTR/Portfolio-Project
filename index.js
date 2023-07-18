@@ -68,10 +68,11 @@ function renderProjects(projects) {
                   .join("")}
               </ul>
               <button class="project-button1 project-button" type="submit">
-                Live Demo
+              <a href="${project.liveLink}"> Live Demo 
               </button>
+            
               <button class="project-button2 project-button" type="github">
-                GitHub
+              <a href="${project.githubLink}">  GitHub </a>
               </button>
             </div>
         </div>
