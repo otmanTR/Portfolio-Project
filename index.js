@@ -77,11 +77,12 @@ function renderProjects(projects) {
   });
 }
 // Fetch Projects
-fetch("projects.json")
+fetch('projects.json')
   .then((response) => response.json())
   .then((data) => renderProjects(data));
 
-  // Download Resume //
+// Download Resume //
+/* eslint-disable-next-line no-unused-vars */
 function downloadResume() {
   const link = document.createElement('a');
   link.href = 'https://docs.google.com/document/d/1r8H9oN_eZ-HXQJHezmwv-3DKtJ19UsyYxbKch2S_M7I/edit';
