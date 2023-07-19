@@ -17,6 +17,21 @@ body {
   width: 100%;
 }
 
+.skil_container {
+  display: flex;
+  flex-direction: column;
+}
+
+.technologies {
+  margin: 10px 10px 10px 15px;
+  color: #396df2;
+}
+
+.skill_head {
+  margin: 10px 10px 10px 10px;
+  color: #172b4d;
+}
+
 .toolbar {
   left: 0;
   right: 0;
@@ -979,6 +994,10 @@ a {
     gap: 10px;
     width: 142px;
     height: 40px;
+  }
+
+  .skil_container {
+    flex-direction: row;
   }
 
   /* contact-validation */
