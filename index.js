@@ -60,12 +60,12 @@ function renderProjects(projects) {
     .map((tech) => `<li><h3 class="html">${tech}</h3></li>`)
     .join('')}
               </ul>
-              <button class="project-button1 project-button" type="submit">
-              <a href="${project.liveLink}"> Live Demo 
+              <button  type="submit">
+              <a class="project-button1 project-button" href="${project.liveLink}"> Live Demo </a>
               </button>
             
-              <button class="project-button2 project-button" type="github">
-              <a href="${project.githubLink}">  GitHub </a>
+              <button  type="github">
+              <a class="project-button2 project-button" href="${project.githubLink}">  GitHub </a>
               </button>
             </div>
         </div>
@@ -77,6 +77,16 @@ function renderProjects(projects) {
   });
 }
 // Fetch Projects
-fetch('projects.json')
+fetch("projects.json")
   .then((response) => response.json())
   .then((data) => renderProjects(data));
+
+  // Download Resume //
+function downloadResume() {
+  const link = document.createElement('a');
+  link.href = 'https://docs.google.com/document/d/1r8H9oN_eZ-HXQJHezmwv-3DKtJ19UsyYxbKch2S_M7I/edit';
+  link.download = 'Recep_Burak_Otman_Resume.pdf';
+
+  // Trigger the download by programmatically clicking the link
+  link.dispatchEvent(new MouseEvent('click'));
+}

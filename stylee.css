@@ -74,11 +74,12 @@ body {
 }
 
 .headline {
-  margin-top: 20rem;
+  margin-top: 15rem;
   color: rgb(0, 255, 0);
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 
 .headline:hover {
@@ -121,6 +122,9 @@ body {
 .description {
   color: white;
   margin: 0 20px 0 20px;
+  width: 80%;
+  justify-content: center;
+  border: 1px solid white;
 }
 
 .description:hover {
@@ -139,6 +143,7 @@ body {
 
 .skill_head {
   color: white;
+  margin-top: 50px;
 }
 
 .skill_head:hover {
@@ -151,14 +156,19 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  border: 1px solid white;
+  margin-top: 20px;
 }
 
-.skil_container {
+.skill_container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction: row;
+  align-items: flex-start;
   justify-content: center;
   list-style: none;
+  flex-flow: column wrap;
+    flex-direction: row;
+    gap: 10px;
 }
 
 .skill_header:hover {
@@ -167,7 +177,8 @@ body {
 }
 
 .picture {
-  width: 300px;
+  width: 100%;
+  height: 17rem;
   margin-top: 20px;
   padding-top: 20px;
 }
@@ -190,6 +201,7 @@ body {
   align-items: center;
   background-color: rgb(0, 0, 0);
   margin: 10px 10px 10px 10px;
+  border: 1px solid white;
 }
 
 .project-info {
@@ -239,21 +251,29 @@ body {
 .project-button1 {
   background-color: rgb(0, 255, 0);
   color: black;
+  text-decoration: none;
 }
 
 .project-button1:hover {
-  background-color: rgb(0, 255, 0);
+  background-color: rgb(0, 0, 0);
+  color: rgb(0, 255, 0);
   transition: 500ms ease-in-out;
 }
 
 .project-button2 {
   background-color: rgb(0, 255, 0);
   color: black;
+  text-decoration: none;
 }
 
 .project-button2:hover {
-  background-color: rgb(0, 255, 0);
+  background-color: rgb(0, 0, 0);
+  color: rgb(0, 255, 0);
   transition: 500ms ease-in-out;
+}
+
+.project-button-below {
+  margin-bottom: 15px;
 }
 
 .form_items {
@@ -285,8 +305,21 @@ body {
   transition: 500ms ease-in-out;
 }
 
+.resume-button {
+  background-color: rgb(0, 255, 0);
+  color: black;
+  margin-top: 20px;
+}
+
+.resume-button:hover {
+  background-color: rgb(0, 0, 0);
+  color: rgb(0, 255, 0);
+  transition: 500ms ease-in-out;
+}
+
+
 @media screen and (min-width: 768px) {
-  .skil_container {
+  .skill_container {
     flex-direction: row;
     align-items: flex-start;
   }
@@ -300,13 +333,15 @@ body {
 
   .projects {
     width: 250px;
+    height: 800px;
     margin: 10px 10px 10px 10px;
     background-color: rgb(50, 50, 50);
   }
 
   .picture {
     margin: 10px 10px 10px 10px;
-    width: 250px;
+    width: 90%;
+    height: 10rem;
   }
 
   .navigation {
@@ -316,5 +351,9 @@ body {
 
   .socialmediaicons {
     margin-right: 50px;
+  }
+
+  .description {
+    width: 300px;
   }
 }
