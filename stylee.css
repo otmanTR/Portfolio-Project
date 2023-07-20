@@ -80,12 +80,10 @@ body {
 }
 
 .projects-title {
-  
-    color: white;
-    margin-top: 50px;
-    font-size: 40px;
-    text-decoration: underline;
-
+  color: white;
+  margin-top: 50px;
+  font-size: 40px;
+  text-decoration: underline;
 }
 
 .works {
@@ -273,8 +271,6 @@ body {
   margin: 10px 0 10px 0;
 }
 
-
-
 .btnform {
   font-size: 18px;
   padding: 12px;
@@ -317,7 +313,6 @@ body {
 }
 
 @media screen and (min-width: 768px) {
-
   .navulitems {
     text-decoration: none;
     display: flex;

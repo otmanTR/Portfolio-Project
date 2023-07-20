@@ -96,11 +96,11 @@ function downloadResume() {
 const skillHeaders = document.querySelectorAll('.skill_header');
 
 // Add click event listener to each header
-skillHeaders.forEach(header => {
+skillHeaders.forEach((header) => {
   header.addEventListener('click', () => {
     // Get the corresponding collapsible ul element
     const collapsibleList = header.nextElementSibling;
-    
+
     // Toggle the visibility of the collapsible ul element
     collapsibleList.classList.toggle('collapsed');
   });
