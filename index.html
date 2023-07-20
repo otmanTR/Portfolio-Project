@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
-    <link rel="shortcut icon" href="#">
+    <script src="https://kit.fontawesome.com/d6a91132dc.js" crossorigin="anonymous"></script>
   </head>
 
   <body>
@@ -25,34 +25,29 @@
      <ul  class="socialmediaicons" >
       <li>
         <a class="social" href="https://twitter.com/hotumanzade">
-          <img src="Images\twitter.png" alt="twitter">
+          <i class="fa-brands fa-twitter icons"></i>
         </a>
       </li>
       <li>
         <a class="social" href="https://www.linkedin.com/in/burak-otman-88646443/">
-          <img src="Images\Linkedin icon.png" alt="link"> </a>
+          <i class="fa-brands fa-linkedin-in icons"></i>
         </a>
       </li>
       <li>
-        <a class="social" href="#">
-          <img src="Images/vin.png" alt="Angelist"> </a>
-        </a>
-      </li>
-      <li>
-        <a class="social" href="#">
-          <img src="Images\kedi.png" alt="https://github.com/otmanTR"> </a>
+        <a class="social" href="https://github.com/otmanTR">
+          <i class="fa-brands fa-github icons"></i>
         </a>
       </li>
    </ul>
     </div>
     <div class="headline" id="About">
         <h1 class="description-header">Burak Otman</h1>
-        <h2 class="description-header"> Full-Stack Developer</h2>
+        <p class="description-header"> Full-Stack Developer</p>
         <p class="description">
           I am a full-stack engineer with the versatility to work remotely and with teams. My motto is to improve myself and continue lifelong learning and with these create a new world for everybody.
          </p>
           <button class="resume-button" type="button" onclick="downloadResume()">
-          Get My Resume
+          Get My Resume  <i class="fa-solid fa-circle-down"></i>
         </button>
        <h2 class="skill_head">
         Skills 
@@ -62,8 +57,9 @@
 </div>
 <div class="skills">
   <div class="skill_container">
-  <ul class="technologies">
-    <h3 class="skill_header">Front End</h3>
+    <div class="collapseContainer">
+    <h3 class="skill_header">Front End  <i class="fa-solid fa-computer-mouse"></i></h3>
+  <ul class="technologies collapsible">
     <li>HTML</li>
     <li>CSS</li>
     <li>JQuery</li>
@@ -71,24 +67,34 @@
     <li>JavaScript</li>
     <li>React</li>
     <li>Redux</li>
-  </ul>
-  <ul class="technologies">
-    <h3 class="skill_header">Back End</h3>
+  </ul> 
+  </div>
+  <div class="collapseContainer">
+  <h3 class="skill_header">Back End  <i class="fa-solid fa-computer-mouse"></i></h3>
+  <ul class="technologies collapsible">
+   
     <li>Ruby</li>
     <li>Ruby on Rails</li>
     <li>PostgreSQL</li>
   </ul>
-  <ul class="technologies">
-    <h3 class="skill_header">Tools</h3>
+  </div>
+  <div class="collapseContainer">
+    <h3 class="skill_header">Tools  <i class="fa-solid fa-computer-mouse"></i></h3>
+  <ul class="technologies collapsible">
+    
     <li>Git</li>
     <li>GitHub</li>
   </ul>
-  <ul class="technologies">
-    <h3 class="skill_header">Soft Skills</h3>
+  </div>
+  <div class="collapseContainer">
+     <h3 class="skill_header">Soft Skills  <i class="fa-solid fa-computer-mouse"></i></h3>
+  <ul class="technologies collapsible">
+   
     <li>Pair-Programming</li>
     <li>Remote</li>
     <li>Teamwork</li>
   </ul>
+  </div>
 </div>
 </div>
 <section class="works" id="Portfolio">
@@ -103,9 +109,9 @@
         <ul class="form_items">
 <li class="form_items_1"> <h1 class="contact-title">Contact me</h1></li>
 <li class="form_items_1"><p class="contact-text">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it</p></li>
-<li class="form_items_1"><input class="formtext" type="text" name="name" placeholder="Burak" maxlength="30" required></li>   
-<li class="form_items_1"><input id="formEmail" class="formemail" type="email" name="email" placeholder="r.brk.otman@gmail.com" required></li>
-<li class="form_items_1"><textarea class="formtextarea" name="textarea" placeholder="Write your message here" maxlength="500" required></textarea></li>    
+<li class="form_items_1"><input class="formtext textarea" type="text" name="name" placeholder="Burak" maxlength="30" required></li>   
+<li class="form_items_1"><input id="formEmail" class="formemail textarea" type="email" name="email" placeholder="r.brk.otman@gmail.com" required></li>
+<li class="form_items_1"><textarea class="formtextarea textarea" name="textarea" placeholder="Write your message here" maxlength="500" required></textarea></li>    
 <li><button type="submit" class="btnform">Get It Touch</button></li>
 </ul>
 <p id="error-message" ></p>
