@@ -60,13 +60,13 @@ function renderProjects(projects) {
     .map((tech) => `<li><h3 class="html">${tech}</h3></li>`)
     .join('')}
               </ul>
-              <button  type="submit">
-              <a class="project-button1 project-button" href="${project.liveLink}"> Live Demo </a>
-              </button>
+              
+              <a class="project-link"  href="${project.liveLink}"> Live Demo </a>
+             
             
-              <button  type="github">
-              <a class="project-button2 project-button" href="${project.githubLink}">  GitHub </a>
-              </button>
+    
+              <a class="project-link"  href="${project.githubLink}">  GitHub </a>
+            
             </div>
         </div>
         </div>
@@ -91,3 +91,17 @@ function downloadResume() {
   // Trigger the download by programmatically clicking the link
   link.dispatchEvent(new MouseEvent('click'));
 }
+
+// Get all the skill_header elements
+const skillHeaders = document.querySelectorAll('.skill_header');
+
+// Add click event listener to each header
+skillHeaders.forEach((header) => {
+  header.addEventListener('click', () => {
+    // Get the corresponding collapsible ul element
+    const collapsibleList = header.nextElementSibling;
+
+    // Toggle the visibility of the collapsible ul element
+    collapsibleList.classList.toggle('collapsed');
+  });
+});

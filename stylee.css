@@ -1,26 +1,47 @@
+@import url('https://fonts.cdnfonts.com/css/gill-sans');
+@import url('https://fonts.googleapis.com/css?family=Lato:400');
+
 body {
   background-color: rgb(0, 0, 0);
   display: flex;
   justify-content: center;
   flex-direction: column;
-  color: white;
+  color: gray;
+  background-image: url("./Images/background.avif");
+  font-family: 'Roboto', 'lato', sans-serif;
+}
+
+.collapsible {
+  display: none;
+}
+
+.collapsible:not(.collapsed) {
+  display: block;
+}
+
+.collapseContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 25px 0 25px;
 }
 
 .navli {
   margin-right: 10px;
+  font-size: 1.7rem;
   list-style: none;
   text-decoration: none;
-  color: rgb(32, 190, 233);
+  color: whitesmoke;
 }
 
 .navli:hover {
-  color: rgb(0, 255, 0);
+  color: rgb(128, 196, 233);
   transition: 500ms ease-in-out;
 }
 
 .navulitems {
   text-decoration: none;
-  display: flex;
+  display: none;
   flex-direction: row;
   justify-content: center;
   list-style: none;
@@ -43,7 +64,7 @@ body {
 }
 
 .logo {
-  width: 150px;
+  width: 80px;
   align-content: center;
 }
 
@@ -51,7 +72,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: rgb(50, 50, 50);
+  background-color: rgb(16, 44, 66);
   width: 100%;
   position: fixed;
   top: 0;
@@ -60,12 +81,9 @@ body {
 
 .projects-title {
   color: white;
-}
-
-.projects-title:hover {
-  background-color: rgb(21, 21, 21);
-  transition: 500ms ease-in-out;
-  color: rgb(0, 255, 0);
+  margin-top: 50px;
+  font-size: 40px;
+  text-decoration: underline;
 }
 
 .works {
@@ -75,17 +93,12 @@ body {
 }
 
 .headline {
-  margin-top: 15rem;
+  margin-top: 7.5rem;
   color: rgb(0, 255, 0);
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-}
-
-.headline:hover {
-  background-color: rgb(0, 0, 0);
-  transition: 500ms ease-in-out;
 }
 
 .technologies {
@@ -95,9 +108,8 @@ body {
   border: white;
 }
 
-.technologies:hover {
-  background-color: rgb(0, 0, 0);
-  transition: 500ms ease-in-out;
+.icons {
+  color: white;
 }
 
 .technologies li {
@@ -105,14 +117,8 @@ body {
   list-style: none;
   border: 1px solid white;
   border-radius: 20px;
-  margin: 10px 10px 10px 10px;
   padding: 5px 5px 5px;
-}
-
-.technologies li:hover {
-  color: rgb(0, 255, 0);
-  transition: 500ms ease-in-out;
-  border: solid rgb(0, 255, 0);
+  margin: 5px 5px 5px;
 }
 
 .technologies h3 {
@@ -122,41 +128,34 @@ body {
 
 .description {
   color: white;
-  margin: 0 20px 0 20px;
   width: 80%;
   justify-content: center;
-}
-
-.description:hover {
-  color: rgb(0, 255, 0);
-  transition: 500ms ease-in-out;
+  font-size: 32px;
 }
 
 .description-header {
   color: white;
-}
-
-.description-header:hover {
-  color: rgb(0, 255, 0);
-  transition: 500ms ease-in-out;
+  font-size: 45px;
+  padding: 0;
+  margin: 0;
 }
 
 .skill_head {
   color: white;
   margin-top: 50px;
+  font-size: 40px;
+  text-decoration: underline;
 }
 
-.skill_head:hover {
-  background-color: rgb(0, 0, 0);
-  color: rgb(0, 255, 0);
-  transition: 500ms ease-in-out;
+.skill_header {
+  color: white;
+  font-size: 35px;
 }
 
 .skills {
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: 1px solid white;
   margin-top: 20px;
 }
 
@@ -167,11 +166,6 @@ body {
   list-style: none;
   flex-flow: row wrap;
   gap: 10px;
-}
-
-.skill_header:hover {
-  color: red;
-  transition: 500ms ease-in-out;
 }
 
 .picture {
@@ -197,9 +191,21 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: rgb(0, 0, 0);
   margin: 10px 10px 10px 10px;
   border: 1px solid white;
+}
+
+.projects:hover {
+  background-color: rgb(16, 44, 66);
+  transition: 500ms ease-in-out;
+}
+
+.project-title {
+  font-size: xx-large;
+}
+
+.project-details {
+  font-size: small;
 }
 
 .project-info {
@@ -207,25 +213,6 @@ body {
   flex-direction: column;
   align-items: center;
   margin: 0 10px 0 10px;
-}
-
-.project-title {
-  color: rgb(0, 255, 0);
-}
-
-.project-title:hover {
-  color: rgb(0, 255, 0);
-  transition: 500ms ease-in-out;
-}
-
-.project-details:hover {
-  color: rgb(0, 255, 0);
-  transition: 500ms ease-in-out;
-}
-
-.built:hover {
-  color: rgb(0, 255, 0);
-  transition: 500ms ease-in-out;
 }
 
 .dev-list {
@@ -241,34 +228,33 @@ body {
   list-style: none;
 }
 
-.year:hover {
-  color: rgb(0, 255, 0);
+.project-link {
+  font-size: 18px;
+  border: 1px solid #6c76cf;
+  border-radius: 20px;
+  text-decoration: none;
+  color: #7eb0fb;
+  margin: 5px 5px 5px 5px;
+}
+
+.project-link:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(16, 44, 66);
   transition: 500ms ease-in-out;
 }
 
-.project-button1 {
-  background-color: rgb(0, 255, 0);
-  color: black;
-  text-decoration: none;
-}
-
-.project-button1:hover {
-  background-color: rgb(0, 0, 0);
-  color: rgb(0, 255, 0);
-  transition: 500ms ease-in-out;
-}
-
-.project-button2 {
-  background-color: rgb(0, 255, 0);
-  color: black;
-  text-decoration: none;
+/* .project-button2 {
+  font-size: 18px;
+  padding: 12px;
+  border: 1px solid #6c76cf;
+  border-radius: 16px;
 }
 
 .project-button2:hover {
   background-color: rgb(0, 0, 0);
   color: rgb(0, 255, 0);
   transition: 500ms ease-in-out;
-}
+} */
 
 .project-button-below {
   margin-bottom: 15px;
@@ -281,41 +267,64 @@ body {
   list-style: none;
 }
 
-.form_items:hover {
-  background-color: rgb(0, 255, 0);
-  transition: 500ms ease-in-out;
-  color: black;
+.textarea {
+  margin: 10px 0 10px 0;
 }
 
 .btnform {
-  background-color: rgb(0, 255, 0);
-  color: black;
+  font-size: 18px;
+  padding: 12px;
+  background: transparent;
+  border: 1px solid #6c76cf;
+  border-radius: 16px;
+  color: #7eb0fb;
+  margin-top: 20px;
 }
 
 .btnform:hover {
-  background-color: rgb(0, 0, 0);
-  transition: 500ms ease-in-out;
+  background-color: rgb(16, 44, 66);
   color: white;
-}
-
-.projects:hover {
-  background-color: rgb(0, 0, 0);
   transition: 500ms ease-in-out;
 }
 
 .resume-button {
-  background-color: rgb(0, 255, 0);
-  color: black;
+  font-size: 18px;
+  padding: 12px;
+  background: transparent;
+  border: 1px solid #6c76cf;
+  border-radius: 16px;
+  color: #7eb0fb;
   margin-top: 20px;
 }
 
 .resume-button:hover {
-  background-color: rgb(0, 0, 0);
-  color: rgb(0, 255, 0);
+  background-color: rgb(16, 44, 66);
+  color: white;
   transition: 500ms ease-in-out;
 }
 
+.contackback {
+  color: white;
+  border: solid 1px white;
+}
+
+.contact-title {
+  font-size: 40px;
+}
+
 @media screen and (min-width: 768px) {
+  .navulitems {
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+  }
+
+  .contact-text {
+    width: 300px;
+  }
+
   .skill_container {
     flex-direction: row;
     align-items: flex-start;
@@ -332,7 +341,6 @@ body {
     width: 250px;
     height: 800px;
     margin: 10px 10px 10px 10px;
-    background-color: rgb(50, 50, 50);
   }
 
   .picture {
