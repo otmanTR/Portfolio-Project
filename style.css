@@ -2,8 +2,24 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  margin-top: 10px;
   font-family: "Poppins", sans-serif;
+}
+
+@keyframes scaleUp {
+  0% {
+    transform: scale(1); /* Initial size */
+  }
+  100% {
+    transform: scale(1.2); /* Final size, adjust the scale value as needed */
+  }
+}
+
+/* Apply the animation to the text */
+.text1 {
+  animation-name: scaleUp;
+  animation-duration: 2s; /* Adjust the duration as needed */
+  animation-timing-function: ease-in-out; /* Use a different timing function for different effects */
+  animation-iteration-count:initial; /* Infinite loop, remove this line if you want it to animate only once */
 }
 
 .projects-container {
@@ -15,7 +31,9 @@
   margin: 0 auto;
 }
 
-
+.logo-image {
+  width: 100px;
+}
 
 .cards {
   background-color: #fff;
@@ -92,6 +110,10 @@
   height: 17rem;
 }
 
+.picture:hover {
+  transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  transition: 500ms linear;
+}
 .collapsible:not(.collapsed) {
   display: flex;
   flex-direction: row;
@@ -104,7 +126,7 @@ background-color: ghostwhite;
 display: flex;
 flex-direction: row;
 align-items: center;
-margin-left: 20px;
+margin: 2%;
 }
 
 .collapsible li p {
@@ -115,7 +137,6 @@ margin-left: 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 0 25px 0 25px;
 }
 
 body {
@@ -170,16 +191,7 @@ body {
   left: 12px;
   padding-bottom: 10px;
   font-family: "Poppins", sans-serif;
-  margin-left: 10px;
   text-align: center;
-}
-
-.logo-image {
-  transition-property: width;
-}
-
-.logo-image:hover {
-  width: 200px;
 }
 
 .icons {
@@ -245,7 +257,8 @@ a {
   background-image: url(./Headerbig.png);
   background-size: cover;
   background-repeat: no-repeat;
-  padding-left: 100px;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 .header-shapes {
@@ -269,13 +282,11 @@ a {
   display: flex;
   align-items: center;
   color: #172b4d;
-  animation-name: text;
-  animation-duration: 2s;
-  animation-iteration-count: infinite;
+ 
 }
 
 .text2 {
-  width: 100%;
+  width: 85%;
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -297,15 +308,20 @@ a {
   font-size: 16px;
   line-height: 24px;
   color: #7f8cff;
-  margin: 0;
+  margin: 2% 0 0 0;
+}
+
+.let:hover {
+  background: #6070ff;
+color: #fff;
 }
 
 .socialmediaicons {
   display: flex;
   gap: 20px;
-  margin-left: 0;
   list-style-type: none;
   padding-left: 0;
+  margin: 10% 0 10% 0;
 }
 
 .h1 {
@@ -388,7 +404,7 @@ a {
   background: #ebebff;
   border-radius: 8px;
   color: #396df2;
-  margin: 5px;
+  width: 92%;
 }
 
 .btn {
@@ -555,8 +571,11 @@ a {
   flex-direction: column;
   background-color: white;
   margin-top: 100px;
-  margin-left: 30px;
   padding-left: 30px;
+}
+
+.tech-skills {
+  margin-bottom: 10%;
 }
 
 .aboutsocialmediaicons {
@@ -565,6 +584,7 @@ a {
   justify-content: flex-start;
   gap: 30px;
   list-style: none;
+  margin: 3% 0;
 }
 
 .aheading {
@@ -580,7 +600,7 @@ a {
 }
 
 .ades {
-  width: 90%;
+  width: 85%;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -589,6 +609,7 @@ a {
   flex: none;
   order: 1;
   flex-grow: 0;
+  margin: 3% 0%;
 }
 
 .aget {
@@ -688,13 +709,14 @@ a {
   flex-direction: column;
   text-decoration: none;
   margin-top: 100px;
-  align-content: center;
-  text-align: center;
+ text-align: center;
+  align-items: center;
 }
 
 .form_items_1 {
   list-style-type: none;
 }
+
 
 .btnform {
   padding: 16px;
@@ -711,7 +733,6 @@ a {
   align-items: center;
   text-align: center;
   letter-spacing: 0.03em;
-  margin-left: 15px;
   margin-top: 20px;
 }
 
@@ -795,11 +816,9 @@ a {
   font-size: 20px;
   line-height: 28px;
   color: #ebebff;
-  margin-right: 39px;
-  padding-right: 30px;
+margin: 5% 0;
   font-weight: 400;
   width: 100%;
-  height: 102px;
 }
 
 /* Pop-up */
@@ -895,6 +914,7 @@ a {
   justify-content: space-evenly;
 }
 
+
 /* ------------Desktop Version----------- */
 
 @media screen and (min-width: 768px) {
@@ -903,13 +923,37 @@ a {
     overflow-x: hidden;
   }
 
+
+  .projects {
+    display: flex;
+    flex-direction: row;
+  }
+
+  
+
+  .project2 {
+    flex-direction:row-reverse ;
+  }
+
+  .project4 {
+    flex-direction:row-reverse ;
+  }
+
+  .project6 {
+    flex-direction:row-reverse ;
+  }
+
+  .project-info {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
   .socialmediaicons {
-  margin-left: 27%;
+    margin: 30% 50%;
   }
 
   .tool {
     width: 100%;
-    height: 816px;
     top: 1px;
     border-bottom-left-radius: 150px;
   }
@@ -931,16 +975,6 @@ a {
     justify-content: space-between;
   }
 
-  .navul1 {
-    margin-left: 150px;
-    margin-top: -20px;
-  }
-
-  .navul2 {
-    margin-top: -20px;
-    margin-left: 840px;
-  }
-
   .navulitems {
     font-style: normal;
     font-size: 15px;
@@ -960,11 +994,7 @@ a {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    margin-left: 40px;
-    margin-top: 50px;
-    border-bottom-left-radius: 150px;
-    background-size: 1397.4px 721.46px;
-    background-repeat: no-repeat;
+    margin-top: 50px;  
   }
 
   .text1 {
@@ -986,7 +1016,7 @@ a {
   .let {
     margin-left: 50px;
     margin-top: 5px;
-    padding-top: 50px;
+    padding-top: 20px;
   }
 
   .aboutsocialmediaicons {
@@ -1053,13 +1083,13 @@ a {
 
   .about__content {
     align-content: flex-start;
+    margin-left: 10%;
   }
 
   .About__skills {
     flex-direction: row;
-    margin-left: 100px;
     color: #344563;
-    margin-top: -30px;
+    margin-right: 5%;
   }
 
   .lan1 {
@@ -1108,10 +1138,7 @@ a {
   }
 
   .contact-text {
-    display: flex;
-    text-align: center;
-    flex-wrap: wrap;
-    align-content: stretch;
+  width: 400px;
   }
 
   .cardDesktop {
@@ -1129,6 +1156,10 @@ a {
     gap: 10px;
     width: 142px;
     height: 40px;
+  }
+
+  .collapseContainer {
+    margin: 10%;
   }
 
   /* contact-validation */
