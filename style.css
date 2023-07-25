@@ -22,14 +22,8 @@
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   padding: 20px;
-  width: 300px;
   display: flex;
   flex-direction: column;
-}
-
-.picture {
-  width: 100%;
-  border-radius: 8px;
 }
 
 .project-title {
@@ -93,7 +87,8 @@
 }
 
 .picture {
-  width: 80%;
+  width: 100%;
+  height: 17rem;
 }
 
 .collapsible:not(.collapsed) {
@@ -198,6 +193,8 @@ body {
 
 .skill_header {
    color: #172b4d;
+   margin: 20px 5px 5px 5px;
+   padding: 5px 5px 5px 5px;
 }
 
 .project-title {
