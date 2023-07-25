@@ -6,6 +6,122 @@
   font-family: "Poppins", sans-serif;
 }
 
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+
+
+.cards {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+.picture {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.project-title {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+.year {
+  margin-top: 5px;
+  color: #777;
+}
+
+.project-details {
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.project-button-below {
+  margin-top: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.built {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.dev-list {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  flex-wrap: wrap;
+}
+
+.dev-list li {
+  font-size: 14px;
+  color: #555;
+}
+
+.project-link {
+  display: inline-block;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.project-link:hover {
+  background-color: #0056b3;
+}
+
+.collapsible {
+  display: none;
+}
+
+.picture {
+  width: 80%;
+}
+
+.collapsible:not(.collapsed) {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  flex-wrap: wrap;
+}
+
+.collapsible li {
+background-color: ghostwhite;
+display: flex;
+flex-direction: row;
+align-items: center;
+margin-left: 20px;
+}
+
+.collapsible li p {
+  margin-left: 15px;
+}
+
+.collapseContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 25px 0 25px;
+}
+
 body {
   background: #e5e5e5;
   width: 100%;
@@ -80,6 +196,27 @@ body {
   margin-left: 302px;
 }
 
+.skill_header {
+   color: #172b4d;
+}
+
+.project-title {
+  color: #172b4d;
+}
+
+.project-type-year {
+  display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+}
+
+.project-details {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+}
+
 .hamburger {
   left: 0;
 }
@@ -141,7 +278,6 @@ a {
 
 .text2 {
   width: 100%;
-  height: 146px;
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -249,6 +385,14 @@ a {
   margin: 5px;
 }
 
+.technologies {
+  padding: 4px 12px;
+  background: #ebebff;
+  border-radius: 8px;
+  color: #396df2;
+  margin: 5px;
+}
+
 .btn {
   padding: 16px;
   background: transparent;
@@ -320,17 +464,13 @@ a {
 }
 
 .html {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
   padding: 4px 12px;
-  width: 53px;
-  height: 24px;
   background: #ebebff;
   border-radius: 8px;
-  flex: none;
   order: 0;
   flex-grow: 0;
+  color: #396df2;
+  margin: 5px 5px 5px 5px;
 }
 
 .css {
@@ -426,6 +566,7 @@ a {
   flex-direction: row;
   justify-content: flex-start;
   gap: 30px;
+  list-style: none;
 }
 
 .aheading {
@@ -442,7 +583,6 @@ a {
 
 .ades {
   width: 90%;
-  height: 144px;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -681,6 +821,7 @@ a {
   z-index: 3;
 }
 
+
 .card-container-title {
   flex-direction: row;
   justify-content: space-between;
@@ -764,6 +905,10 @@ a {
     overflow-x: hidden;
   }
 
+  .socialmediaicons {
+  margin-left: 27%;
+  }
+
   .tool {
     width: 100%;
     height: 816px;
@@ -827,21 +972,21 @@ a {
   .text1 {
     flex-wrap: wrap;
     width: 80%;
-    margin-left: 250px;
-    padding-top: 200px;
+    margin-left: 50px;
+    padding-top: 20px;
   }
 
   .text2 {
     flex-wrap: wrap;
     width: 60%;
-    margin-left: 250px;
+    margin-left: 50px;
     margin-right: 20%;
-    padding-top: 100px;
+    padding-top: 40px;
     margin-top: 5px;
   }
 
   .let {
-    margin-left: 250px;
+    margin-left: 50px;
     margin-top: 5px;
     padding-top: 50px;
   }
@@ -894,12 +1039,15 @@ a {
     background: white;
   }
 
+  .aget {
+    margin-top: 20px;
+  }
+  
   .about {
     margin-top: 100px;
     padding-top: 10px;
     display: flex;
     flex-direction: row;
-    margin-left: 250px;
     padding-right: 100px;
     background-color: white;
     width: 100%;
@@ -964,7 +1112,6 @@ a {
   .contact-text {
     display: flex;
     text-align: center;
-    margin-left: 100px;
     flex-wrap: wrap;
     align-content: stretch;
   }
