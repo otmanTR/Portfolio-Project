@@ -15,6 +15,33 @@
   }
 }
 
+nav {
+  margin-right: 5%;
+}
+.navigation-bar {
+  position:fixed;
+  display: flex; 
+  flex-direction: row;
+  justify-content: space-between;
+  top: 0px; 
+  height: 100px;
+  width: 100%;
+  background-color: rgb(255, 255, 255, 0.8);
+}
+
+.navigation-item-container {
+  display: flex;
+  flex-direction: row;
+list-style: none;
+margin-right: 5%;
+margin-top: 20px;
+}
+
+.navigation-item-container li {
+  margin: 3px 3px 3px 3px;
+  color: #344563;
+}
+
 /* Apply the animation to the text */
 .text1 {
   animation-name: scaleUp;
@@ -32,6 +59,7 @@
   display: flex;
   align-items: center;
   color: #172b4d;
+  margin-top: 120px;
 }
 
 .projects-container {
