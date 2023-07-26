@@ -102,7 +102,7 @@ skillHeaders.forEach((header) => {
 /* eslint-disable-next-line no-unused-vars */
 function downloadResume() {
   const link = document.createElement('a');
-  link.href = 'https://docs.google.com/document/d/1r8H9oN_eZ-HXQJHezmwv-3DKtJ19UsyYxbKch2S_M7I/edit';
+  link.href = 'https://drive.google.com/file/d/1DN2jyYaZdvrX-ucgdBwRsh1COB9PJdqD/view?usp=drive_link';
   link.download = 'Recep_Burak_Otman_Resume.pdf';
 
   // Trigger the download by programmatically clicking the link
