@@ -9,6 +9,7 @@
   0% {
     transform: scale(1); /* Initial size */
   }
+
   100% {
     transform: scale(1.2); /* Final size, adjust the scale value as needed */
   }
@@ -19,7 +20,18 @@
   animation-name: scaleUp;
   animation-duration: 2s; /* Adjust the duration as needed */
   animation-timing-function: ease-in-out; /* Use a different timing function for different effects */
-  animation-iteration-count:initial; /* Infinite loop, remove this line if you want it to animate only once */
+  animation-iteration-count: initial; /* Infinite loop, remove this line if you want it to animate only once */
+  width: 100%;
+  height: 150px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  margin-left: 0;
+  display: flex;
+  align-items: center;
+  color: #172b4d;
 }
 
 .projects-container {
@@ -47,17 +59,12 @@
 .project-title {
   font-size: 24px;
   margin: 10px 0;
+  color: #172b4d;
 }
 
 .year {
   margin-top: 5px;
   color: #777;
-}
-
-.project-details {
-  font-size: 14px;
-  margin-top: 10px;
-  color: #344563;
 }
 
 .project-button-below {
@@ -114,6 +121,7 @@
   transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
   transition: 500ms linear;
 }
+
 .collapsible:not(.collapsed) {
   display: flex;
   flex-direction: row;
@@ -122,11 +130,11 @@
 }
 
 .collapsible li {
-background-color: ghostwhite;
-display: flex;
-flex-direction: row;
-align-items: center;
-margin: 2%;
+  background-color: ghostwhite;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 2%;
 }
 
 .collapsible li p {
@@ -205,20 +213,16 @@ body {
 }
 
 .skill_header {
-   color: #172b4d;
-   margin: 20px 5px 5px 5px;
-   padding: 5px 5px 5px 5px;
-   width: 150px;
-}
-
-.project-title {
   color: #172b4d;
+  margin: 20px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;
+  width: 150px;
 }
 
 .project-type-year {
   display: flex;
-flex-direction: row;
-justify-content: space-evenly;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 
 .project-details {
@@ -226,6 +230,8 @@ justify-content: space-evenly;
   font-weight: 400;
   font-size: 15px;
   line-height: 24px;
+  margin-top: 10px;
+  color: #344563;
 }
 
 .hamburger {
@@ -271,21 +277,6 @@ a {
   align-items: center;
 }
 
-.text1 {
-  width: 100%;
-  height: 150px;
-  font-family: "Poppins", sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 52px;
-  margin-left: 0;
-  display: flex;
-  align-items: center;
-  color: #172b4d;
- 
-}
-
 .text2 {
   width: 85%;
   font-family: "Poppins", sans-serif;
@@ -314,7 +305,7 @@ a {
 
 .let:hover {
   background: #6070ff;
-color: #fff;
+  color: #fff;
 }
 
 .socialmediaicons {
@@ -710,14 +701,13 @@ color: #fff;
   flex-direction: column;
   text-decoration: none;
   margin-top: 100px;
- text-align: center;
+  text-align: center;
   align-items: center;
 }
 
 .form_items_1 {
   list-style-type: none;
 }
-
 
 .btnform {
   padding: 16px;
@@ -817,7 +807,7 @@ color: #fff;
   font-size: 20px;
   line-height: 28px;
   color: #ebebff;
-margin: 5% 0;
+  margin: 5% 0;
   font-weight: 400;
   width: 100%;
 }
@@ -838,7 +828,6 @@ margin: 5% 0;
   color: #172b4d;
   z-index: 3;
 }
-
 
 .card-container-title {
   flex-direction: row;
@@ -924,24 +913,25 @@ margin: 5% 0;
     overflow-x: hidden;
   }
 
-
   .projects {
     display: flex;
     flex-direction: row;
   }
 
-  
+  .technologies {
+    width: 200px;
+  }
 
   .project2 {
-    flex-direction:row-reverse ;
+    flex-direction: row-reverse;
   }
 
   .project4 {
-    flex-direction:row-reverse ;
+    flex-direction: row-reverse;
   }
 
   .project6 {
-    flex-direction:row-reverse ;
+    flex-direction: row-reverse;
   }
 
   .project-info {
@@ -995,7 +985,7 @@ margin: 5% 0;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    margin-top: 50px;  
+    margin-top: 50px;
   }
 
   .text1 {
@@ -1071,7 +1061,7 @@ margin: 5% 0;
   .aget {
     margin-top: 20px;
   }
-  
+
   .about {
     margin-top: 100px;
     padding-top: 10px;
@@ -1139,7 +1129,7 @@ margin: 5% 0;
   }
 
   .contact-text {
-  width: 400px;
+    width: 400px;
   }
 
   .cardDesktop {
